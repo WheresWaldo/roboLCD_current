@@ -1,0 +1,2964 @@
+2017-08-01 21:13:28,808 - kivy - INFO - {
+  "buddah_batman.gcode": {
+    "hash": "f5b6901e9bb071f5d4645d078ac0c524bb15356f", 
+    "links": [], 
+    "date": 1493257311, 
+    "path": "buddah_batman.gcode", 
+    "size": 60387608, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 30036.35730290413
+      }, 
+      "lastPrintTime": {
+        "_default": 30036.35730290413
+      }
+    }, 
+    "name": "buddah_batman.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 52931.615880253725, 
+      "printingArea": {
+        "maxZ": 106.7, 
+        "maxX": 134.586, 
+        "maxY": 132.378, 
+        "minX": 61.972, 
+        "minY": 62.026, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 72.614, 
+        "depth": 70.35199999999998, 
+        "height": 106.4
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 26362.7378100009
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": "--", 
+      "infill": "25", 
+      "layer height": "0.06", 
+      "time": {
+        "hours": "18", 
+        "seconds": "30", 
+        "minutes": "30"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1493200336.073492, 
+        "printTime": 30036.35730290413, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493310134.927421, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493660683.562344, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493929223.766851, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493929905.999897, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493930528.428439, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493930553.897829, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "Motor_Mating_Bracket.gcode": {
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "hash": "f359e5bad8750a98bbaa2eb06a5e91f1c47d8b07", 
+    "name": "Motor_Mating_Bracket.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 87173.04029930464, 
+      "printingArea": {
+        "maxZ": 26.763, 
+        "maxX": 184.1, 
+        "maxY": 187.68, 
+        "minX": 11.9, 
+        "minY": 8.32, 
+        "minZ": 0.45
+      }, 
+      "dimensions": {
+        "width": 172.2, 
+        "depth": 179.36, 
+        "height": 26.313000000000002
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 105032.92459994469
+        }
+      }
+    }, 
+    "date": 1498249862, 
+    "path": "Motor_Mating_Bracket.gcode", 
+    "robo_data": {
+      "layers": 171, 
+      "infill": 25, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "24", 
+        "seconds": "0", 
+        "minutes": "12"
+      }
+    }, 
+    "size": 111141236, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1499902947.23936, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "Lawn_Gnome.gcode": {
+    "hash": "24433793fdbc425b372f2de6ce89b411523e2e22", 
+    "name": "Lawn_Gnome.gcode", 
+    "links": [], 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 31111.71352506867, 
+      "printingArea": {
+        "maxZ": 141.072, 
+        "maxX": 139.464, 
+        "maxY": 126.026, 
+        "minX": 57.689, 
+        "minY": 70.988, 
+        "minZ": 0.359
+      }, 
+      "dimensions": {
+        "width": 81.775, 
+        "depth": 55.038, 
+        "height": 140.713
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 29866.60555000069
+        }
+      }
+    }, 
+    "date": 1492824418, 
+    "path": "Lawn_Gnome.gcode", 
+    "robo_data": {
+      "layers": 939, 
+      "infill": 30.0, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "8", 
+        "seconds": "56", 
+        "minutes": "55"
+      }
+    }, 
+    "type": "machinecode", 
+    "size": 27270331
+  }, 
+  "calibration_cube_with_hole.stl": {
+    "hash": "b530d4c813e82e25e08c733eb5f17ffd968a7829", 
+    "name": "calibration_cube_with_hole.stl", 
+    "links": [], 
+    "notes": [], 
+    "typePath": [
+      "model", 
+      "stl"
+    ], 
+    "date": 1499725807, 
+    "path": "calibration_cube_with_hole.stl", 
+    "type": "model", 
+    "size": 30583
+  }, 
+  "Kill_Switch_ZED.STL": {
+    "hash": "8a2441e9bb21bf3a8b943888e9ecaa69f8680cfc", 
+    "name": "Kill_Switch_ZED.STL", 
+    "typePath": [
+      "model", 
+      "stl"
+    ], 
+    "date": 1497694411, 
+    "path": "Kill_Switch_ZED.STL", 
+    "type": "model", 
+    "size": 508684
+  }, 
+  "Camera_Battery_Mount_ZED.STL": {
+    "hash": "4c865411521d45044a569d99d5f03d741f2316c4", 
+    "name": "Camera_Battery_Mount_ZED.STL", 
+    "typePath": [
+      "model", 
+      "stl"
+    ], 
+    "date": 1497694397, 
+    "path": "Camera_Battery_Mount_ZED.STL", 
+    "type": "model", 
+    "size": 211184
+  }, 
+  "tube_holders.gcode": {
+    "hash": "0eff3c092e534d4ca039e2c286606c43766d7a72", 
+    "links": [], 
+    "date": 1500680442, 
+    "path": "tube_holders.gcode", 
+    "size": 6059370, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 38370.02797651291
+      }, 
+      "lastPrintTime": {
+        "_default": 38347.85136413574
+      }
+    }, 
+    "name": "tube_holders.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 30379.40207187214, 
+      "printingArea": {
+        "maxZ": 10.805, 
+        "maxX": 197.706, 
+        "maxY": 187.455, 
+        "minX": -0.138, 
+        "minY": 4.449, 
+        "minZ": 0.45
+      }, 
+      "dimensions": {
+        "width": 197.844, 
+        "depth": 183.006, 
+        "height": 10.355
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 27590.42809999237
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 64, 
+      "infill": 20, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "8", 
+        "seconds": "0", 
+        "minutes": "26"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1500717784.654919, 
+        "printTime": 38392.204588890076, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1500759632.883789, 
+        "printTime": 38347.85136413574, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "Phone_Stand.gcode": {
+    "hash": "e7732595cc4c6d1de5ad48f13fa6bfd6a85738a5", 
+    "name": "Phone_Stand.gcode", 
+    "links": [], 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 10798.146217727051, 
+      "printingArea": {
+        "maxZ": 51.076, 
+        "maxX": 133.484, 
+        "maxY": 154.972, 
+        "minX": 66.224, 
+        "minY": 44.309, 
+        "minZ": 0.359
+      }, 
+      "dimensions": {
+        "width": 67.26, 
+        "depth": 110.66300000000001, 
+        "height": 50.717
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 9569.75598
+        }
+      }
+    }, 
+    "date": 1492824427, 
+    "path": "Phone_Stand.gcode", 
+    "robo_data": {
+      "layers": 335, 
+      "infill": 30.0, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "3", 
+        "seconds": "57", 
+        "minutes": "8"
+      }
+    }, 
+    "type": "machinecode", 
+    "size": 6021658
+  }, 
+  "calibration_cube_with_hole_2.gcode": {
+    "hash": "be5c38ef25339e17fb2f9c72c4cf078b8789d743", 
+    "links": [], 
+    "date": 1500066512, 
+    "path": "calibration_cube_with_hole_2.gcode", 
+    "size": 282426, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 1556.1540718078613
+      }, 
+      "lastPrintTime": {
+        "_default": 1556.1540718078613
+      }
+    }, 
+    "name": "calibration_cube_with_hole_2.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 1436.8744113063585, 
+      "printingArea": {
+        "maxZ": 20.0, 
+        "maxX": 107.8, 
+        "maxY": 107.8, 
+        "minX": 88.2, 
+        "minY": 88.2, 
+        "minZ": 0.2
+      }, 
+      "dimensions": {
+        "width": 19.599999999999994, 
+        "depth": 19.599999999999994, 
+        "height": 19.8
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 1523.00053
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 133, 
+      "infill": 0, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "0", 
+        "seconds": "44", 
+        "minutes": "25"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1500068080.030704, 
+        "printTime": 1556.1540718078613, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1500329826.768012, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "USB": {
+    "name": "USB", 
+    "type_path": [
+      "folder"
+    ], 
+    "path": "USB", 
+    "type": "folder", 
+    "children": {
+      "ROBO3DR1V3_06112015": {
+        "name": "ROBO3DR1V3_06112015", 
+        "type_path": [
+          "folder"
+        ], 
+        "path": "USB/ROBO3DR1V3_06112015", 
+        "type": "folder", 
+        "children": {}, 
+        "size": 0
+      }, 
+      "3D_Prints": {
+        "name": "3D_Prints", 
+        "type_path": [
+          "folder"
+        ], 
+        "path": "USB/3D_Prints", 
+        "type": "folder", 
+        "children": {
+          "25mm_cube_4.gcode": {
+            "hash": "78568b34a404cbb766e9d9aa9212ae7b4e2c6698", 
+            "name": "25mm_cube_4.gcode", 
+            "links": [], 
+            "notes": [], 
+            "typePath": [
+              "machinecode", 
+              "gcode"
+            ], 
+            "date": 1498515956, 
+            "path": "USB/3D_Prints/25mm_cube_4.gcode", 
+            "robo_data": {
+              "layers": 166, 
+              "infill": 10, 
+              "layer height": 0.15, 
+              "time": {
+                "hours": "0", 
+                "seconds": "25", 
+                "minutes": "57"
+              }
+            }, 
+            "type": "machinecode", 
+            "size": 518201
+          }, 
+          "robo_logo_keychain.gcode": {
+            "hash": "b979bcd08d5b92f581d07329edfe3b8ea8cf04aa", 
+            "name": "robo_logo_keychain.gcode", 
+            "links": [], 
+            "notes": [], 
+            "typePath": [
+              "machinecode", 
+              "gcode"
+            ], 
+            "date": 1484745124, 
+            "path": "USB/3D_Prints/robo_logo_keychain.gcode", 
+            "robo_data": {
+              "layers": 21, 
+              "infill": 100, 
+              "layer height": 0.2, 
+              "time": {
+                "hours": "0", 
+                "seconds": "0", 
+                "minutes": "37"
+              }
+            }, 
+            "type": "machinecode", 
+            "size": 927239
+          }, 
+          "Twisted_Vase_K2.gcode": {
+            "hash": "4c3d747286473bd7dcb67ead81d98a1db8a52d61", 
+            "links": [], 
+            "date": 1484745216, 
+            "path": "USB/3D_Prints/Twisted_Vase_K2.gcode", 
+            "size": 8290633, 
+            "statistics": {
+              "averagePrintTime": {}, 
+              "lastPrintTime": {}
+            }, 
+            "name": "Twisted_Vase_K2.gcode", 
+            "notes": [], 
+            "typePath": [
+              "machinecode", 
+              "gcode"
+            ], 
+            "robo_data": {
+              "layers": 756, 
+              "infill": 0, 
+              "layer height": 0.16, 
+              "time": {
+                "hours": "5", 
+                "seconds": "0", 
+                "minutes": "52"
+              }
+            }, 
+            "type": "machinecode", 
+            "history": [
+              {
+                "timestamp": 1499881947.366297, 
+                "printerProfile": "_default", 
+                "success": false
+              }
+            ]
+          }, 
+          "cell_phone.gcode": {
+            "hash": "fa8edc758423cf47f93bdd345772c9338bc39c00", 
+            "name": "cell_phone.gcode", 
+            "links": [], 
+            "notes": [], 
+            "typePath": [
+              "machinecode", 
+              "gcode"
+            ], 
+            "date": 1484745184, 
+            "path": "USB/3D_Prints/cell_phone.gcode", 
+            "robo_data": {
+              "layers": "--", 
+              "infill": "--", 
+              "layer height": "--", 
+              "time": {
+                "hours": "0", 
+                "seconds": "0", 
+                "minutes": "0"
+              }
+            }, 
+            "type": "machinecode", 
+            "size": 16876822
+          }
+        }, 
+        "size": 26612895
+      }, 
+      "Marlin.R2.1.1.8.hex": {
+        "hash": "c9bde1c855e93cb017846b440b18517f43169fad", 
+        "name": "Marlin.R2.1.1.8.hex", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "firmware", 
+          "hex_file"
+        ], 
+        "date": 1500593114, 
+        "path": "USB/Marlin.R2.1.1.8.hex", 
+        "type": "firmware", 
+        "size": 293459
+      }, 
+      "Marlin.C2.1.1.7.hex": {
+        "hash": "7af4b65cd681585aee227b9723b1faabacd2c8da", 
+        "name": "Marlin.C2.1.1.7.hex", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "firmware", 
+          "hex_file"
+        ], 
+        "date": 1499893650, 
+        "path": "USB/Marlin.C2.1.1.7.hex", 
+        "type": "firmware", 
+        "size": 331734
+      }, 
+      "test_hex": {
+        "name": "test_hex", 
+        "type_path": [
+          "folder"
+        ], 
+        "path": "USB/test_hex", 
+        "type": "folder", 
+        "children": {
+          "Marlin.ino.hex": {
+            "hash": "cb4243840a9b8201db8e4b60e30073bd165b32e9", 
+            "name": "Marlin.ino.hex", 
+            "links": [], 
+            "notes": [], 
+            "typePath": [
+              "firmware", 
+              "hex_file"
+            ], 
+            "date": 1500597208, 
+            "path": "USB/test_hex/Marlin.ino.hex", 
+            "type": "firmware", 
+            "size": 292306
+          }, 
+          "Marlin1.1.4.R2.hex": {
+            "hash": "0aa14562bd1561ca51c4be7f53ab936022f365d6", 
+            "name": "Marlin1.1.4.R2.hex", 
+            "links": [], 
+            "notes": [], 
+            "typePath": [
+              "firmware", 
+              "hex_file"
+            ], 
+            "date": 1500658350, 
+            "path": "USB/test_hex/Marlin1.1.4.R2.hex", 
+            "type": "firmware", 
+            "size": 321932
+          }, 
+          "Marlin.ino.mega_try3.hex": {
+            "hash": "0aa14562bd1561ca51c4be7f53ab936022f365d6", 
+            "name": "Marlin.ino.mega_try3.hex", 
+            "links": [], 
+            "notes": [], 
+            "typePath": [
+              "firmware", 
+              "hex_file"
+            ], 
+            "date": 1500658350, 
+            "path": "USB/test_hex/Marlin.ino.mega_try3.hex", 
+            "type": "firmware", 
+            "size": 321932
+          }
+        }, 
+        "size": 936170
+      }, 
+      "System_Volume_Information_(2)": {
+        "name": "System_Volume_Information_(2)", 
+        "type_path": [
+          "folder"
+        ], 
+        "path": "USB/System_Volume_Information_(2)", 
+        "type": "folder", 
+        "children": {}, 
+        "size": 0
+      }, 
+      "System_Volume_Information_(3)": {
+        "name": "System_Volume_Information_(3)", 
+        "type_path": [
+          "folder"
+        ], 
+        "path": "USB/System_Volume_Information_(3)", 
+        "type": "folder", 
+        "children": {}, 
+        "size": 0
+      }, 
+      "tube_holders.gcode": {
+        "hash": "0eff3c092e534d4ca039e2c286606c43766d7a72", 
+        "name": "tube_holders.gcode", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "machinecode", 
+          "gcode"
+        ], 
+        "date": 1500743072, 
+        "path": "USB/tube_holders.gcode", 
+        "robo_data": {
+          "layers": 64, 
+          "infill": 20, 
+          "layer height": 0.15, 
+          "time": {
+            "hours": "8", 
+            "seconds": "0", 
+            "minutes": "26"
+          }
+        }, 
+        "type": "machinecode", 
+        "size": 6059370
+      }, 
+      "System_Volume_Information": {
+        "name": "System_Volume_Information", 
+        "type_path": [
+          "folder"
+        ], 
+        "path": "USB/System_Volume_Information", 
+        "type": "folder", 
+        "children": {}, 
+        "size": 0
+      }, 
+      "DEK_Marlin.ino.hex": {
+        "hash": "dfceb9b2f0b55525d1aae6b2e37c00e49159c1b3", 
+        "name": "DEK_Marlin.ino.hex", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "firmware", 
+          "hex_file"
+        ], 
+        "date": 1497555222, 
+        "path": "USB/DEK_Marlin.ino.hex", 
+        "type": "firmware", 
+        "size": 306157
+      }, 
+      "Marlin.R2.1.1.7.hex": {
+        "hash": "3c268c0447fa60ddffceaf398ba5e702d81f49f7", 
+        "name": "Marlin.R2.1.1.7.hex", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "firmware", 
+          "hex_file"
+        ], 
+        "date": 1497643942, 
+        "path": "USB/Marlin.R2.1.1.7.hex", 
+        "type": "firmware", 
+        "size": 346244
+      }, 
+      "C2_TEST_PRINT_SIMPLIFY_3D.gcode": {
+        "hash": "b237853041f76fb68d492fe175276d0f17113940", 
+        "name": "C2_TEST_PRINT_SIMPLIFY_3D.gcode", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "machinecode", 
+          "gcode"
+        ], 
+        "date": 1486132020, 
+        "path": "USB/C2_TEST_PRINT_SIMPLIFY_3D.gcode", 
+        "robo_data": {
+          "layers": 150, 
+          "infill": 30, 
+          "layer height": 0.2, 
+          "time": {
+            "hours": "0", 
+            "seconds": "0", 
+            "minutes": "39"
+          }
+        }, 
+        "type": "machinecode", 
+        "size": 1625061
+      }
+    }, 
+    "size": 36511090
+  }, 
+  "shelf_inside.gco": {
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "hash": "14f258fe9eefa6a26a5c615b8b55aecbc2019b71", 
+    "name": "shelf_inside.gco", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 15183.922776491298, 
+      "printingArea": {
+        "maxZ": 16.05, 
+        "maxX": 126.973, 
+        "maxY": 97.144, 
+        "minX": -2.972, 
+        "minY": 32.15, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 129.945, 
+        "depth": 64.994, 
+        "height": 15.75
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 12111.541770000491
+        }
+      }
+    }, 
+    "date": 1494354102, 
+    "path": "shelf_inside.gco", 
+    "robo_data": {
+      "layers": 100, 
+      "infill": "--", 
+      "layer height": 100.0, 
+      "time": {
+        "hours": "0", 
+        "seconds": "0", 
+        "minutes": "0"
+      }
+    }, 
+    "size": 4085709, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1494372367.527795, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "skull_bowl.stl": {
+    "hash": "2d59a256cad12a36d45eff31ec807fcf414858f0", 
+    "name": "skull_bowl.stl", 
+    "typePath": [
+      "model", 
+      "stl"
+    ], 
+    "date": 1499903940, 
+    "path": "skull_bowl.stl", 
+    "type": "model", 
+    "size": 14473084
+  }, 
+  "Yin_Yang_Tea_candle_holder.gcode": {
+    "hash": "0c644e77198fbaf657b0e416df9d2efad5118523", 
+    "name": "Yin_Yang_Tea_candle_holder.gcode", 
+    "links": [], 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 17609.21016480076, 
+      "printingArea": {
+        "maxZ": 25.85, 
+        "maxX": 162.537, 
+        "maxY": 148.092, 
+        "minX": 33.433, 
+        "minY": 47.957, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 129.104, 
+        "depth": 100.13500000000002, 
+        "height": 25.55
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 17443.10359000109
+        }
+      }
+    }, 
+    "date": 1500421641, 
+    "path": "Yin_Yang_Tea_candle_holder.gcode", 
+    "robo_data": {
+      "layers": 166, 
+      "infill": 10, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "5", 
+        "seconds": "25", 
+        "minutes": "22"
+      }
+    }, 
+    "type": "machinecode", 
+    "size": 3682261
+  }, 
+  "abs": {
+    "name": "abs", 
+    "type_path": [
+      "folder"
+    ], 
+    "path": "abs", 
+    "type": "folder", 
+    "children": {
+      "25mm_cube_1.gcode": {
+        "hash": "6e6bd851f68475ee41342407d7d26a09ac5d1214", 
+        "name": "25mm_cube_1.gcode", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "machinecode", 
+          "gcode"
+        ], 
+        "date": 1494961057, 
+        "path": "abs/25mm_cube_1.gcode", 
+        "robo_data": {
+          "layers": 249, 
+          "infill": 0, 
+          "layer height": 0.1, 
+          "time": {
+            "hours": "1", 
+            "seconds": "32", 
+            "minutes": "13"
+          }
+        }, 
+        "type": "machinecode", 
+        "size": 522982
+      }, 
+      "25mm_cube.stl": {
+        "hash": "7e3b769259272d6a6da793a25831fb7fb0b3d442", 
+        "name": "25mm_cube.stl", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "model", 
+          "stl"
+        ], 
+        "date": 1500330858, 
+        "path": "abs/25mm_cube.stl", 
+        "type": "model", 
+        "size": 3281
+      }, 
+      "25mm_cube_0_.gcode": {
+        "hash": "78568b34a404cbb766e9d9aa9212ae7b4e2c6698", 
+        "name": "25mm_cube_0_.gcode", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "machinecode", 
+          "gcode"
+        ], 
+        "date": 1494960763, 
+        "path": "abs/25mm_cube_0_.gcode", 
+        "robo_data": {
+          "layers": 166, 
+          "infill": 10, 
+          "layer height": 0.15, 
+          "time": {
+            "hours": "0", 
+            "seconds": "25", 
+            "minutes": "57"
+          }
+        }, 
+        "type": "machinecode", 
+        "size": 518201
+      }, 
+      "25mm_cube.gcode": {
+        "hash": "78568b34a404cbb766e9d9aa9212ae7b4e2c6698", 
+        "links": [], 
+        "date": 1494958624, 
+        "path": "abs/25mm_cube.gcode", 
+        "size": 518201, 
+        "statistics": {
+          "averagePrintTime": {}, 
+          "lastPrintTime": {}
+        }, 
+        "name": "25mm_cube.gcode", 
+        "notes": [], 
+        "typePath": [
+          "machinecode", 
+          "gcode"
+        ], 
+        "robo_data": {
+          "layers": 166, 
+          "infill": 10, 
+          "layer height": 0.15, 
+          "time": {
+            "hours": "0", 
+            "seconds": "25", 
+            "minutes": "57"
+          }
+        }, 
+        "type": "machinecode", 
+        "history": [
+          {
+            "timestamp": 1498691973.928241, 
+            "printerProfile": "_default", 
+            "success": false
+          }
+        ]
+      }, 
+      "25mm_cube_0.gcode": {
+        "hash": "1a26f4a7ad39a2c48f033dbc9478694025eca007", 
+        "name": "25mm_cube_0.gcode", 
+        "links": [], 
+        "notes": [], 
+        "typePath": [
+          "machinecode", 
+          "gcode"
+        ], 
+        "date": 1494960951, 
+        "path": "abs/25mm_cube_0.gcode", 
+        "robo_data": {
+          "layers": 414, 
+          "infill": 25, 
+          "layer height": 0.06, 
+          "time": {
+            "hours": "2", 
+            "seconds": "14", 
+            "minutes": "11"
+          }
+        }, 
+        "type": "machinecode", 
+        "size": 1760292
+      }
+    }, 
+    "size": 3322957
+  }, 
+  "buddah_batman.stl": {
+    "hash": "a264d2672b9c73a7cdbd05664dd142507a35cd24", 
+    "name": "buddah_batman.stl", 
+    "typePath": [
+      "model", 
+      "stl"
+    ], 
+    "date": 1493170128, 
+    "path": "buddah_batman.stl", 
+    "type": "model", 
+    "size": 25000084
+  }, 
+  "TK1_Holder.gcode": {
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 32767.421895980835
+      }, 
+      "lastPrintTime": {
+        "_default": 32767.421895980835
+      }
+    }, 
+    "hash": "49e114e4014618ef319a17bc89dcf3d4db421c5e", 
+    "name": "TK1_Holder.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 18102.157371007776, 
+      "printingArea": {
+        "maxZ": 131.763, 
+        "maxX": 177.122, 
+        "maxY": 121.8, 
+        "minX": 18.878, 
+        "minY": 74.2, 
+        "minZ": 0.45
+      }, 
+      "dimensions": {
+        "width": 158.24400000000003, 
+        "depth": 47.599999999999994, 
+        "height": 131.31300000000002
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 29516.95309982499
+        }
+      }
+    }, 
+    "date": 1499905594, 
+    "path": "TK1_Holder.gcode", 
+    "robo_data": {
+      "layers": 871, 
+      "infill": 100, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "5", 
+        "seconds": "0", 
+        "minutes": "1"
+      }
+    }, 
+    "size": 30322463, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1499938386.231577, 
+        "printTime": 32767.421895980835, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "R2_Spiral_Bed_Level_Test.gcode": {
+    "hash": "6734da4521b432b63d63aaee810b95347af29318", 
+    "links": [], 
+    "date": 1492824429, 
+    "path": "R2_Spiral_Bed_Level_Test.gcode", 
+    "size": 74384, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 735.4891474076679
+      }, 
+      "lastPrintTime": {
+        "_default": 686.0890579223633
+      }
+    }, 
+    "name": "R2_Spiral_Bed_Level_Test.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 513.1254550549975, 
+      "printingArea": {
+        "maxZ": 0.2, 
+        "maxX": 189.1, 
+        "maxY": 190.727, 
+        "minX": 6.9, 
+        "minY": 5.25, 
+        "minZ": 0.2
+      }, 
+      "dimensions": {
+        "width": 182.2, 
+        "depth": 185.477, 
+        "height": 0.0
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 767.24515
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 1, 
+      "infill": "--", 
+      "layer height": 1.0, 
+      "time": {
+        "hours": "0", 
+        "seconds": "0", 
+        "minutes": "0"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1493399443.561906, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493399832.260405, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493400602.699786, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493658963.372893, 
+        "printTime": 1021.0634660720825, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493661753.767556, 
+        "printTime": 891.6991519927979, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493668296.828377, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493671325.432689, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493673124.174886, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493674201.744404, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493832570.712783, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493837241.940333, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493839023.954486, 
+        "printTime": 779.2501809597015, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493860361.096685, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493916578.080819, 
+        "printTime": 947.0968730449677, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493917664.905346, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493918736.152823, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493919417.156493, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493919962.150212, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493920327.66241, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493924119.363801, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493928259.454829, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493928515.195437, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493928790.007574, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493929167.940725, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493929659.745357, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493930152.396085, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493930209.166177, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493930338.357016, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493930475.22932, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493935363.572057, 
+        "printTime": 743.9300107955933, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493935992.62125, 
+        "printTime": 443.7722249031067, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493937270.362502, 
+        "printTime": 453.92428708076477, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493940499.653132, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493941452.956284, 
+        "printTime": 729.6324489116669, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1494022813.682187, 
+        "printTime": 733.7173728942871, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1494282429.520021, 
+        "printTime": 748.426924943924, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1494284871.324838, 
+        "printTime": 705.2603631019592, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1494285537.934858, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494286823.042223, 
+        "printTime": 705.2972218990326, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1494364778.150446, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494365959.887781, 
+        "printTime": 707.6884791851044, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1494366777.924399, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494370809.756778, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495826410.778038, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495827411.341998, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1498675806.420355, 
+        "printTime": 686.0890579223633, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1500662833.95863, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1500663858.968906, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1500664098.273361, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1500670701.590884, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1500675948.247021, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "base.gcode": {
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "hash": "8d1a47a659a03b15311ccf96262a4e4de78a0867", 
+    "name": "base.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 5086.918991494942, 
+      "printingArea": {
+        "maxZ": 9.02, 
+        "maxX": 96.23, 
+        "maxY": 97.73, 
+        "minX": 28.77, 
+        "minY": 27.27, 
+        "minZ": 0.12
+      }, 
+      "dimensions": {
+        "width": 67.46000000000001, 
+        "depth": 70.46000000000001, 
+        "height": 8.9
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 3891.8493000000876
+        }
+      }
+    }, 
+    "date": 1495490628, 
+    "path": "base.gcode", 
+    "robo_data": {
+      "layers": 90, 
+      "infill": 20, 
+      "layer height": 0.1, 
+      "time": {
+        "hours": "1", 
+        "seconds": "0", 
+        "minutes": "24"
+      }
+    }, 
+    "size": 296297, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1495585359.782572, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495754380.28252, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1496336822.377952, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1496862722.98976, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "25mm_cube.stl": {
+    "hash": "7e3b769259272d6a6da793a25831fb7fb0b3d442", 
+    "name": "25mm_cube.stl", 
+    "typePath": [
+      "model", 
+      "stl"
+    ], 
+    "date": 1494521251, 
+    "path": "25mm_cube.stl", 
+    "type": "model", 
+    "size": 3281
+  }, 
+  "25mm_cube.gcode": {
+    "hash": "434f917ba014293af0672a5857c69269f2bfba80", 
+    "links": [], 
+    "date": 1494607851, 
+    "path": "25mm_cube.gcode", 
+    "size": 518094, 
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "name": "25mm_cube.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 3167.409930435864, 
+      "printingArea": {
+        "maxZ": 25.85, 
+        "maxX": 115.559, 
+        "maxY": 115.6, 
+        "minX": 80.439, 
+        "minY": 80.4, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 35.120000000000005, 
+        "depth": 35.19999999999999, 
+        "height": 25.55
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 3065.08781
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": "--", 
+      "infill": "10", 
+      "layer height": "0.15", 
+      "time": {
+        "hours": "0", 
+        "seconds": "25", 
+        "minutes": "57"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1494521540.247808, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494623802.69353, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "buddah_batman_1.gcode": {
+    "hash": "3f36d553b28e493f8b4e11e2484ab2ecab3083a9", 
+    "links": [], 
+    "date": 1494964829, 
+    "path": "buddah_batman_1.gcode", 
+    "size": 36586363, 
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "name": "buddah_batman_1.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 32952.40618978971, 
+      "printingArea": {
+        "maxZ": 106.7, 
+        "maxX": 134.569, 
+        "maxY": 132.394, 
+        "minX": 61.076, 
+        "minY": 62.084, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 73.493, 
+        "depth": 70.31, 
+        "height": 106.4
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 26441.91526999999
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 1062, 
+      "infill": 25, 
+      "layer height": 0.1, 
+      "time": {
+        "hours": "11", 
+        "seconds": "41", 
+        "minutes": "35"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1494973972.897999, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495127728.443387, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495145467.986397, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495147491.036645, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495151590.240292, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "ROV_Thruster.gcode": {
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 68653.9452688098
+      }, 
+      "lastPrintTime": {
+        "_default": 71422.20458197594
+      }
+    }, 
+    "hash": "5d2e68cc407cefcc1c07cd60b6c080cd3dc35a9c", 
+    "name": "ROV_Thruster.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 62791.56375802648, 
+      "printingArea": {
+        "maxZ": 68.913, 
+        "maxX": 180.543, 
+        "maxY": 185.52, 
+        "minX": 25.119, 
+        "minY": 16.594, 
+        "minZ": 0.45
+      }, 
+      "dimensions": {
+        "width": 155.424, 
+        "depth": 168.92600000000002, 
+        "height": 68.463
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 59287.97690003832
+        }
+      }
+    }, 
+    "date": 1493338979, 
+    "path": "ROV_Thruster.gcode", 
+    "robo_data": {
+      "layers": 452, 
+      "infill": 20, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "17", 
+        "seconds": "0", 
+        "minutes": "26"
+      }
+    }, 
+    "size": 50556320, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1493339450.709595, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493341243.308051, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493396880.672961, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493405979.797828, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493407755.663122, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493409703.318708, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493411489.779747, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493411791.403044, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493412118.325177, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493420625.168047, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493420802.323879, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493422036.557318, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493422563.720549, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493424325.80905, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493495027.804615, 
+        "printTime": 70425.17468714714, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493579975.691804, 
+        "printTime": 70434.16429615021, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493642636.138803, 
+        "printTime": 62334.2375099659, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493657867.627749, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493680314.604187, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493685886.258748, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493775004.240369, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493831846.29013, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493848052.925541, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494017899.708618, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494276752.531276, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495991814.006993, 
+        "printTime": 71422.20458197594, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "Jetson_Holder_thick_walls.gcode": {
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 31490.255985975266
+      }, 
+      "lastPrintTime": {
+        "_default": 31490.255985975266
+      }
+    }, 
+    "hash": "7f918b3f1fc45b10941ed72804a1788c8f811fb5", 
+    "name": "Jetson_Holder_thick_walls.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 28048.078483731908, 
+      "printingArea": {
+        "maxZ": 76.013, 
+        "maxX": 153.6, 
+        "maxY": 147.887, 
+        "minX": 41.979, 
+        "minY": 48.113, 
+        "minZ": 0.5
+      }, 
+      "dimensions": {
+        "width": 111.621, 
+        "depth": 99.774, 
+        "height": 75.513
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 26886.424099999138
+        }
+      }
+    }, 
+    "date": 1500588677, 
+    "path": "Jetson_Holder_thick_walls.gcode", 
+    "robo_data": {
+      "layers": 499, 
+      "infill": 20, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "7", 
+        "seconds": "0", 
+        "minutes": "47"
+      }
+    }, 
+    "size": 7774550, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1500620181.305016, 
+        "printTime": 31490.255985975266, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "25mm_cube_2.gcode": {
+    "hash": "1a26f4a7ad39a2c48f033dbc9478694025eca007", 
+    "links": [], 
+    "date": 1496870292, 
+    "path": "25mm_cube_2.gcode", 
+    "size": 518201, 
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "name": "25mm_cube_2.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 6944.988228942313, 
+      "printingArea": {
+        "maxZ": 25.88, 
+        "maxX": 115.559, 
+        "maxY": 115.6, 
+        "minX": 80.439, 
+        "minY": 80.4, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 35.120000000000005, 
+        "depth": 35.19999999999999, 
+        "height": 25.58
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 3147.40826
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 414, 
+      "infill": 25, 
+      "layer height": 0.06, 
+      "time": {
+        "hours": "2", 
+        "seconds": "14", 
+        "minutes": "11"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1495829398.233424, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495832013.72517, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1496169724.086348, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1496188496.090762, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "Camera_Battery_Mount_ZED.gcode": {
+    "hash": "48d4429a05424bc68366d1def5055393d8e7bade", 
+    "links": [], 
+    "date": 1497694612, 
+    "path": "Camera_Battery_Mount_ZED.gcode", 
+    "size": 11362468, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 60416.07760000229
+      }, 
+      "lastPrintTime": {
+        "_default": 60416.07760000229
+      }
+    }, 
+    "name": "Camera_Battery_Mount_ZED.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 71894.21260020006, 
+      "printingArea": {
+        "maxZ": 150.95, 
+        "maxX": 197.682, 
+        "maxY": 170.131, 
+        "minX": -1.537, 
+        "minY": 27.931, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 199.219, 
+        "depth": 142.2, 
+        "height": 150.64999999999998
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 75193.60982000681
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 1000, 
+      "infill": 10, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "21", 
+        "seconds": "12", 
+        "minutes": "56"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1497695003.652893, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497826396.927643, 
+        "printTime": 60416.07760000229, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "25mm_cube_3.gcode": {
+    "hash": "0215c70ea33ff033f65d12eb74bf18bc8d391cc7", 
+    "links": [], 
+    "date": 1496870533, 
+    "path": "25mm_cube_3.gcode", 
+    "size": 518201, 
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "name": "25mm_cube_3.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 3167.409930435864, 
+      "printingArea": {
+        "maxZ": 25.85, 
+        "maxX": 115.559, 
+        "maxY": 115.6, 
+        "minX": 80.439, 
+        "minY": 80.4, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 35.120000000000005, 
+        "depth": 35.19999999999999, 
+        "height": 25.55
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 3065.08781
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 166, 
+      "infill": 25, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "1", 
+        "seconds": "6", 
+        "minutes": "0"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1496941203.28502, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1496947538.430741, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1496948196.353353, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497309512.227336, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497637351.376869, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497637624.824812, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497637930.555843, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497638060.175184, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497640978.926461, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497641005.093246, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497641440.39432, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497641705.721599, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497643062.380503, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497644078.152975, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1497984862.142446, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "robo_folder": {
+    "name": "robo_folder", 
+    "type_path": [
+      "folder"
+    ], 
+    "path": "robo_folder", 
+    "type": "folder", 
+    "children": {
+      "skull_bowl.gcode": {
+        "hash": "956344cfec2bdbdda64d3e771c1ebdcdc411f7f0", 
+        "links": [], 
+        "date": 1499904339, 
+        "path": "robo_folder/skull_bowl.gcode", 
+        "size": 54668839, 
+        "statistics": {
+          "averagePrintTime": {}, 
+          "lastPrintTime": {}
+        }, 
+        "name": "skull_bowl.gcode", 
+        "notes": [], 
+        "typePath": [
+          "machinecode", 
+          "gcode"
+        ], 
+        "robo_data": {
+          "layers": 552, 
+          "infill": 10, 
+          "layer height": 0.15, 
+          "time": {
+            "hours": "12", 
+            "seconds": "2", 
+            "minutes": "23"
+          }
+        }, 
+        "type": "machinecode", 
+        "history": [
+          {
+            "timestamp": 1499904613.321335, 
+            "printerProfile": "_default", 
+            "success": false
+          }, 
+          {
+            "timestamp": 1499905373.786233, 
+            "printerProfile": "_default", 
+            "success": false
+          }
+        ]
+      }
+    }, 
+    "size": 54668839
+  }, 
+  "Jetson_Holder.gcode": {
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 19372.151808023453
+      }, 
+      "lastPrintTime": {
+        "_default": 19372.151808023453
+      }
+    }, 
+    "hash": "7033c1589f0cd5535bfd407af7037d5ca8079cde", 
+    "name": "Jetson_Holder.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 23803.47346725956, 
+      "printingArea": {
+        "maxZ": 76.013, 
+        "maxX": 153.6, 
+        "maxY": 147.887, 
+        "minX": 41.979, 
+        "minY": 48.113, 
+        "minZ": 0.5
+      }, 
+      "dimensions": {
+        "width": 111.621, 
+        "depth": 99.774, 
+        "height": 75.513
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 23000.816700000323
+        }
+      }
+    }, 
+    "date": 1500568578, 
+    "path": "Jetson_Holder.gcode", 
+    "robo_data": {
+      "layers": 499, 
+      "infill": 20, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "6", 
+        "seconds": "0", 
+        "minutes": "36"
+      }
+    }, 
+    "size": 6185359, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1500587990.416269, 
+        "printTime": 19372.151808023453, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "R2_Test_Print.gcode": {
+    "hash": "1c8f5afc33c1fb2c1641c05300e4d677d96e13e9", 
+    "links": [], 
+    "date": 1492824433, 
+    "path": "R2_Test_Print.gcode", 
+    "size": 1593749, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 2958.952150464058
+      }, 
+      "lastPrintTime": {
+        "_default": 2860.215229988098
+      }
+    }, 
+    "name": "R2_Test_Print.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 2558.0495348953946, 
+      "printingArea": {
+        "maxZ": 32.055, 
+        "maxX": 128.244, 
+        "maxY": 129.309, 
+        "minX": 80.691, 
+        "minY": 81.756, 
+        "minZ": 0.45
+      }, 
+      "dimensions": {
+        "width": 47.553, 
+        "depth": 47.553, 
+        "height": 31.605
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 2134.337600000391
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 156, 
+      "infill": 30, 
+      "layer height": 0.2, 
+      "time": {
+        "hours": "0", 
+        "seconds": "0", 
+        "minutes": "42"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1493409077.102665, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493412322.055169, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493415441.567046, 
+        "printTime": 3057.6890709400177, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1493662952.185672, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493672931.202465, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493675815.638773, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493678041.936031, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493679725.647241, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493836268.475915, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493842247.96507, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493923347.766222, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1499898316.701118, 
+        "printTime": 2860.215229988098, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "calibration_cube_with_hole_1.gcode": {
+    "hash": "53ce46ca4f3381067176d57e070f09abc3020715", 
+    "links": [], 
+    "date": 1499970908, 
+    "path": "calibration_cube_with_hole_1.gcode", 
+    "size": 379930, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 2499.965572118759
+      }, 
+      "lastPrintTime": {
+        "_default": 2499.965572118759
+      }
+    }, 
+    "name": "calibration_cube_with_hole_1.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 1944.5295789871097, 
+      "printingArea": {
+        "maxZ": 20.9, 
+        "maxX": 113.059, 
+        "maxY": 113.1, 
+        "minX": 82.939, 
+        "minY": 82.9, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 30.120000000000005, 
+        "depth": 30.19999999999999, 
+        "height": 20.599999999999998
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 1813.19528
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 133, 
+      "infill": 10, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "0", 
+        "seconds": "4", 
+        "minutes": "35"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1499973443.090606, 
+        "printTime": 2499.965572118759, 
+        "printerProfile": "_default", 
+        "success": true
+      }, 
+      {
+        "timestamp": 1500331400.004213, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "calibration_cube_with_hole.gcode": {
+    "hash": "29cb88c121a849f0d78fcd642efc248f796cdf3e", 
+    "links": [], 
+    "date": 1499968349, 
+    "path": "calibration_cube_with_hole.gcode", 
+    "size": 893044, 
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "name": "calibration_cube_with_hole.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 3594.7624078524013, 
+      "printingArea": {
+        "maxZ": 20.0, 
+        "maxX": 107.8, 
+        "maxY": 107.8, 
+        "minX": 88.2, 
+        "minY": 88.2, 
+        "minZ": 0.2
+      }, 
+      "dimensions": {
+        "width": 19.599999999999994, 
+        "depth": 19.599999999999994, 
+        "height": 19.8
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 1547.70091
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 331, 
+      "infill": 10, 
+      "layer height": 0.06, 
+      "time": {
+        "hours": "1", 
+        "seconds": "58", 
+        "minutes": "5"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1499970816.152699, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "arms2_single.gcode": {
+    "hash": "c28b05f3432dc5d9bc6f0e083ddf4ee4ee095308", 
+    "name": "arms2_single.gcode", 
+    "links": [], 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 11039.776694080569, 
+      "printingArea": {
+        "maxZ": 12.005, 
+        "maxX": 115.482, 
+        "maxY": 111.861, 
+        "minX": 10.053, 
+        "minY": 11.565, 
+        "minZ": 0.5
+      }, 
+      "dimensions": {
+        "width": 105.429, 
+        "depth": 100.296, 
+        "height": 11.505
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 9283.154800001581
+        }
+      }
+    }, 
+    "date": 1489772104, 
+    "path": "arms2_single.gcode", 
+    "robo_data": {
+      "layers": 104, 
+      "infill": 20, 
+      "layer height": 0.1, 
+      "time": {
+        "hours": "3", 
+        "seconds": "0", 
+        "minutes": "3"
+      }
+    }, 
+    "type": "machinecode", 
+    "size": 14939659
+  }, 
+  "Kill_Switch_ZED.gcode": {
+    "hash": "1580fa7ebb204283f3d8558aa9b5ac8bad6aeb2e", 
+    "links": [], 
+    "date": 1497694713, 
+    "path": "Kill_Switch_ZED.gcode", 
+    "size": 10164298, 
+    "statistics": {
+      "averagePrintTime": {
+        "_default": 24468.422256946564
+      }, 
+      "lastPrintTime": {
+        "_default": 24468.422256946564
+      }
+    }, 
+    "name": "Kill_Switch_ZED.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 18176.01172819768, 
+      "printingArea": {
+        "maxZ": 33.35, 
+        "maxX": 156.884, 
+        "maxY": 160.166, 
+        "minX": 39.865, 
+        "minY": 33.166, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 117.01899999999998, 
+        "depth": 127.0, 
+        "height": 33.050000000000004
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 18464.95140999975
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 216, 
+      "infill": 25, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "6", 
+        "seconds": "28", 
+        "minutes": "5"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1497719505.245184, 
+        "printTime": 24468.422256946564, 
+        "printerProfile": "_default", 
+        "success": true
+      }
+    ]
+  }, 
+  "25mm_cube_1.gcode": {
+    "hash": "f8a41b6fc68cf25e5d0df7b7f2646570f52ccae6", 
+    "links": [], 
+    "date": 1494961138, 
+    "path": "25mm_cube_1.gcode", 
+    "size": 279569, 
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "name": "25mm_cube_1.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 2469.421492981068, 
+      "printingArea": {
+        "maxZ": 25.9, 
+        "maxX": 115.559, 
+        "maxY": 115.6, 
+        "minX": 80.439, 
+        "minY": 80.4, 
+        "minZ": 0.3
+      }, 
+      "dimensions": {
+        "width": 35.120000000000005, 
+        "depth": 35.19999999999999, 
+        "height": 25.599999999999998
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 3016.61693
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 125, 
+      "infill": 0, 
+      "layer height": 0.2, 
+      "time": {
+        "hours": "0", 
+        "seconds": "12", 
+        "minutes": "43"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1495216310.821107, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495216935.157755, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495471802.199618, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495473048.43745, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495485785.143339, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1495490263.184768, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "Bird_House.gcode": {
+    "hash": "0438f596bcbe3e4e2e0b9cfa88409c3983294ef5", 
+    "name": "Bird_House.gcode", 
+    "links": [], 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 39588.80925005735, 
+      "printingArea": {
+        "maxZ": 124.682, 
+        "maxX": 137.656, 
+        "maxY": 142.955, 
+        "minX": 59.344, 
+        "minY": 54.045, 
+        "minZ": 0.359
+      }, 
+      "dimensions": {
+        "width": 78.31200000000001, 
+        "depth": 88.91000000000001, 
+        "height": 124.32300000000001
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 29614.442739999573
+        }
+      }
+    }, 
+    "date": 1492824408, 
+    "path": "Bird_House.gcode", 
+    "robo_data": {
+      "layers": 829, 
+      "infill": 30.0, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "11", 
+        "seconds": "24", 
+        "minutes": "30"
+      }
+    }, 
+    "type": "machinecode", 
+    "size": 29024844
+  }, 
+  "Money_Clip.gcode": {
+    "hash": "4a9788d862437eb2d9bf104da408cc981cbe124d", 
+    "name": "Money_Clip.gcode", 
+    "links": [], 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 10680.795454560895, 
+      "printingArea": {
+        "maxZ": 55.993, 
+        "maxX": 151.602, 
+        "maxY": 113.225, 
+        "minX": 45.407, 
+        "minY": 83.772, 
+        "minZ": 0.359
+      }, 
+      "dimensions": {
+        "width": 106.19500000000001, 
+        "depth": 29.45299999999999, 
+        "height": 55.634
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 8039.3207299999685
+        }
+      }
+    }, 
+    "date": 1492824423, 
+    "path": "Money_Clip.gcode", 
+    "robo_data": {
+      "layers": 368, 
+      "infill": 30.0, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "3", 
+        "seconds": "20", 
+        "minutes": "1"
+      }
+    }, 
+    "type": "machinecode", 
+    "size": 5573490
+  }, 
+  "3DCreatorPrint.gcode": {
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "hash": "b2d1f1778ed2a6a0eb32e53108f50bbf6d52b8b0", 
+    "name": "3DCreatorPrint.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 6552.094012097452, 
+      "printingArea": {
+        "maxZ": 51.392, 
+        "maxX": 120.657, 
+        "maxY": 120.657, 
+        "minX": 75.343, 
+        "minY": 75.343, 
+        "minZ": 0.5
+      }, 
+      "dimensions": {
+        "width": 45.31399999999999, 
+        "depth": 45.31399999999999, 
+        "height": 50.892
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 6695.932500002894
+        }
+      }
+    }, 
+    "date": 1501522628, 
+    "path": "3DCreatorPrint.gcode", 
+    "robo_data": {
+      "layers": 336, 
+      "infill": 20, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "1", 
+        "seconds": "0", 
+        "minutes": "49"
+      }
+    }, 
+    "size": 7567755, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1501538072.749096, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1501541679.222093, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1501543436.425768, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "A_Pyro_Hat_Sombrero.gcode": {
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "hash": "a569e760c4b27d1d8f9da7b410b77d334646aea7", 
+    "name": "A_Pyro_Hat_Sombrero.gcode", 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 18217.04823562232, 
+      "printingArea": {
+        "maxZ": 52.888, 
+        "maxX": 155.965, 
+        "maxY": 153.635, 
+        "minX": 37.726, 
+        "minY": 44.175, 
+        "minZ": 0.359
+      }, 
+      "dimensions": {
+        "width": 118.239, 
+        "depth": 109.46, 
+        "height": 52.528999999999996
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 19072.895010000448
+        }
+      }
+    }, 
+    "date": 1493944440, 
+    "path": "A_Pyro_Hat_Sombrero.gcode", 
+    "robo_data": {
+      "layers": 259, 
+      "infill": 20.0, 
+      "layer height": 0.3, 
+      "time": {
+        "hours": "5", 
+        "seconds": "48", 
+        "minutes": "17"
+      }
+    }, 
+    "size": 8610312, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1493944744.543221, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494005374.878618, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494008904.121705, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494011670.739074, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494269316.512156, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494277991.641533, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }, 
+  "Tube_and_Cap.gcode": {
+    "hash": "3848a9996eee5f5aae3b3033509b5e75c350b1e8", 
+    "links": [], 
+    "date": 1492824441, 
+    "path": "Tube_and_Cap.gcode", 
+    "size": 13437645, 
+    "statistics": {
+      "averagePrintTime": {}, 
+      "lastPrintTime": {}
+    }, 
+    "name": "Tube_and_Cap.gcode", 
+    "notes": [], 
+    "typePath": [
+      "machinecode", 
+      "gcode"
+    ], 
+    "analysis": {
+      "estimatedPrintTime": 23341.363796780806, 
+      "printingArea": {
+        "maxZ": 65.976, 
+        "maxX": 156.978, 
+        "maxY": 132.277, 
+        "minX": 38.274, 
+        "minY": 64.727, 
+        "minZ": 0.359
+      }, 
+      "dimensions": {
+        "width": 118.70400000000001, 
+        "depth": 67.54999999999998, 
+        "height": 65.617
+      }, 
+      "filament": {
+        "tool0": {
+          "volume": 0.0, 
+          "length": 18318.873109998578
+        }
+      }
+    }, 
+    "robo_data": {
+      "layers": 435, 
+      "infill": 30.0, 
+      "layer height": 0.15, 
+      "time": {
+        "hours": "6", 
+        "seconds": "44", 
+        "minutes": "45"
+      }
+    }, 
+    "type": "machinecode", 
+    "history": [
+      {
+        "timestamp": 1493775636.838074, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1493929245.067473, 
+        "printerProfile": "_default", 
+        "success": false
+      }, 
+      {
+        "timestamp": 1494274566.911548, 
+        "printerProfile": "_default", 
+        "success": false
+      }
+    ]
+  }
+}

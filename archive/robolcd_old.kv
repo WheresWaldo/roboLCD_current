@@ -1,0 +1,24 @@
+<MainScreen>:
+    TabbedPanel:
+        do_default_tab: False
+        tab_width: root.width / 3
+        tab_height: root.height / 4
+        background_color: (0,0,0,1)
+        FilesPanel:
+            text: "\n\n\n\nFiles"
+            Image:
+                source: "icons/files.png"
+                pos: (self.parent.width/2) - 50, (self.parent.height/2.5)
+                allow_stretch: True
+        TabbedPanelHeader:
+            text: "\n\n\n\nPrinter"
+            Image:
+                source: "icons/printer.png"
+                pos: self.parent.width+215, (self.parent.height/2.5)
+                allow_stretch: True
+        TabbedPanelHeader:
+            text: "\n\n\n\nSettings"
+            Image:
+                source: "icons/settings.png"
+                pos: self.parent.width * 2 + 215, (self.parent.height/2.5)
+                allow_stretch: True

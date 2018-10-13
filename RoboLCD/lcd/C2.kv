@@ -1,0 +1,480 @@
+
+<PrinterStatusContent>:
+    canvas.before:
+        Color:
+            rgba: 0,0,0,1
+        Rectangle:
+            pos:self.pos
+            size: self.size
+        
+    background_color: (0,0,0,1)
+    orientation: 'vertical'
+    spacing: 5
+    BoxLayout:
+        id: printer_content
+        padding: 20, 0, 20, 0
+        size_hint_y:1.0
+
+    BoxLayout:
+        id: temp_and_errors
+        size_hint_y: 0.6
+        orientation: 'horizontal'
+        spacing: 25
+        padding: 25, 15, 0, 15
+        canvas.after:
+            Color:
+                # hex #817f7f
+                rgba: root.grey_color
+            Line:
+                cap: 'round'
+                joint: 'round'
+                close: False
+                width: 2
+                points: temp_and_errors.x, temp_and_errors.y - 5, temp_and_errors.x + temp_and_errors.width, temp_and_errors.y - 5
+
+        Button:
+            id: temp
+            size_hint_x: 0.15
+            on_press: root.move_tools_to("TEMP")
+            background_normal: "Icons/white_outline.png"
+            background_down: "Icons/white_outline.png"
+            canvas.after:
+                Color:
+                    # hex #817f7f
+                    rgba: root.temp_color
+                Triangle:
+                    points: temp.center_x , temp.y - 5,      temp.center_x - 15, temp_and_errors.y -5,     temp.center_x + 15, temp_and_errors.y -5
+
+            Image:
+                size: 50, 50
+                center_x: temp.center_x
+                center_y: temp.center_y
+                source: root.temp_icon
+
+        Button:
+            id: error
+            size_hint_x: 0.15
+            background_normal: "Icons/white_outline.png"
+            background_down: "Icons/white_outline.png"
+            on_press: root.move_tools_to("ERROR")
+
+            canvas.after:
+                Color:
+                    # hex #817f7f
+                    rgba: root.error_color
+                Triangle:
+                    points: error.center_x, error.y -5,      error.center_x - 15, temp_and_errors.y -5,     error.center_x + 15, temp_and_errors.y -5
+            Image:
+                size: 50,50
+                center_x: error.center_x
+                center_y: error.center_y
+                source: root.error_icon
+
+        BoxLayout:
+            orientation: 'horizontal'
+            spacing: 25
+            padding: 0, 0, 25, 0
+            id: status_buttons
+    
+    FloatLayout:
+        id: tools_and_Errors
+        pos: root.tae_x, root.tae_y
+        size_hint_y: 0.5
+        size_hint_x: 1
+        canvas.before:
+            Color:
+                #grey 202021
+                rgba: 0.125,0.125,0.12890625,1
+            Rectangle:
+                pos: tools_and_Errors.pos
+                size: 1600, tools_and_Errors.height
+        BoxLayout:
+            background_color: 0,0,0,0
+            id: tools
+            pos: root.tae_x, root.tae_y
+            size: tools_and_Errors.width, tools_and_Errors.height
+            orientation: 'horizontal'
+            spacing: 1
+            padding: 20, 0, 20, 0
+        BoxLayout:
+            background_color: 0,0,0,0            
+            pos: (tools.x + tools.width) , tools.y
+            size: tools_and_Errors.size
+            id: error_box 
+
+
+<Error_Detection>:
+    background_color: 0,0,0,0
+    on_press: root.error_function()
+    id: error_box
+    BoxLayout:
+        background_color: 0,0,0,0
+        pos: error_box.pos
+        size: error_box.size 
+        orientation: 'horizontal'
+        padding: 30, 10 , 30, 10
+        spacing: 20
+        Image:
+            size_hint_x: 0.1
+            source: root.error_icon
+        BoxLayout:
+            orientation: 'vertical'
+            Label:   
+                size_hint_y: 0.5                 
+                text: "[size=30][b]" + root.error_title + "[/b]"
+                markup: True
+                valign: 'center'
+                halign: 'left'
+                text_size: self.size 
+                max_lines: 1
+            Label:    
+                size_hint_y: 0.5           
+                text: "[color=FF0000][size=25]" + root.error_body + "[/color]"
+                markup: True
+                valign: 'center'
+                halign: 'left'
+                text_size: self.size 
+                max_lines: 1
+        Image:
+            size_hint_x: root.caret_size
+            source: 'Icons/Printer Status/carrot.png'
+
+
+<Idle_Screen>:
+    orientation: 'vertical'
+    Image:
+        source: "Icons/C2_Logo.png"
+
+
+<Print_Screen>:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        id: title_bar
+        size_hint_y: 0.3
+        Label:
+            #size_hint_x: 1.75
+            text: root.filename
+            font_size: 35
+            markup: True
+            text_size: self.size
+            shorten: True
+            halign: 'left'
+            valign: 'center'
+            color: 0.4,0.7,0.91,1 
+        Label:
+            size_hint_x: 0.3
+            text: root.progress
+            markup: True
+            halign: 'right'
+            valign: 'center'
+            text_size: self.size        
+
+    BoxLayout:
+        size_hint_y: 0.3
+        orientation: 'vertical'
+        id: progress_and_time
+        
+        BoxLayout:
+            size_hint_y: 0.3
+            padding:10,0,10,0
+            id: progress_bar_goes_here  
+            canvas.after:
+                #progress bar
+                Color:
+                    #grey 817F7F
+                    rgba: 0.50390625,0.49609375,0.49609375,1
+                Rectangle:
+                    pos:progress_bar_goes_here.x, progress_bar_goes_here.y
+                    size: root.progress_width, progress_bar_goes_here.height
+        
+                Color:
+                    #white
+                    rgba: 1,1,1,1
+                Rectangle:
+                    pos:progress_bar_goes_here.x, progress_bar_goes_here.y
+                    size: root.progress_number, progress_bar_goes_here.height
+
+        BoxLayout:
+            size_hint_y: 0.5  
+            padding: 0,10,0,0 #pad the top by 10 units
+            orientation: 'horizontal'  
+            Label:                    
+                text: "[size=30]" + root.te
+                markup: True
+                valign: 'center'
+                halign: 'left'
+                text_size: self.size  
+            Label:                    
+                text: "[size=30]" + root.etr
+                markup: True
+                valign: 'center'
+                halign: 'right'
+                text_size: self.size            
+        
+
+<Tool_Status>:
+    background_color: 0,0,0,0
+    id: tool_status
+    orientation: 'vertical'
+    padding: 0, 10, 20, 10
+    size_hint_x: 1.5
+    Button:
+        id: temp_button
+        background_color: 0,0,0,0
+        on_press: app.root.generate_temperature_controls(name=root.tool,title=root.name,back_destination='main')
+        BoxLayout:
+            pos: temp_button.pos
+            size: temp_button.size
+            orientation: 'vertical'
+            spacing: 10
+            Label:
+                size_hint_y: 0.5
+                id:tool_label
+                text: "[color=#69B3E7]" + root.name
+                markup: True
+                font_size: 25
+                valign: 'center'
+                halign: 'center'
+                max_lines: 1
+                text_size: self.size
+            Label:
+                size_hint_y: 0.5
+                id: temp_label
+                text: str(root.current_temperature) + app.root.lang.pack['Temperature_Controls']['Celsius_with_slash'] + str(root.max_temp)+ app.root.lang.pack['Temperature_Controls']['Celsius_Alone']
+                font_size: 30
+                valign: 'center'
+                halign: 'center'
+                max_lines: 1
+                text_size: self.size
+
+<Motor_Control_Button>:
+    background_normal: "Icons/blue_button_style.png"
+    disabled: root.button_state
+    on_press: app.root.generate_screens("MOTOR_CONTROLS")
+    text: root.lang.pack['Robo_Controls']['Motor_Controls']
+    font_size: 30
+
+<Temp_Control_Button>:
+    background_normal: "Icons/blue_button_style.png"
+    disabled: root.button_state
+    on_press: app.root.generate_screens("EXTRUDER_CONTROLS")
+    text: root.lang.pack['Robo_Controls']['Temperature_Controls']
+    font_size: 30
+
+<QRCodeScreen>:
+    orientation: 'vertical'
+    canvas.before:
+        Color:
+            rgba: 0,0,0,1
+    canvas:
+        Color:
+            rgba: 0.41,0.7,0.91,1
+        Line:
+            cap: 'round'
+            joint: 'round'
+            close: False
+            width: 3
+            points: 300, 22,197,22, 197, 125
+        Line:
+            cap: 'round'
+            joint: 'round'
+            close: False
+            width: 3
+            points: 414,22,522,22,522,125
+        Line:
+            cap: 'round'
+            joint: 'round'
+            close: False
+            width: 3
+            points: 300, 347,197,347, 197, 217
+        Line:
+            cap: 'round'
+            joint: 'round'
+            close: False
+            width: 3
+            points: 414,347,522,347,522,217
+    Image:
+        source: root.img_source
+        width: 300
+        height: 300
+        allow_stretch: False
+        size_hint_x: None
+        #size_hint_y: None
+        pos_hint: {'center_x': 0.5, 'center_y': 0.75}
+
+<WifiLoadingList>:
+    id:screen
+    Image:
+        source: 'Icons/info_icon.png'
+        center_x: screen.center_x - 300
+        center_y: screen.center_y -50
+    Label:
+        text: app.root.lang.pack['WiFi']['Connecting_dots']
+        font_size: 40
+        center_x: screen.center_x - 300
+        center_y: screen.center_y - 150
+        color: (0.4,0.7,0.91,1)
+
+<Z_Offset_Temperature_Wait_Screen>:
+    id: screen
+    Image:
+        size_hint: None, None
+        source: 'Icons/Icon_Buttons/Preheat.png'
+        center_x: screen.center_x
+        center_y: screen.center_y + 100
+        allow_stretch: True
+        size: 125,125
+    Label:
+        markup: True
+        size_hint: None, None
+        text: '[size=30]' + root.body_text
+        valign: 'middle'
+        halign: 'center'
+        center_x: screen.center_x
+        center_y: screen.center_y - 40
+    Label:
+        markup: True
+        size_hint: None, None
+        text: '[size=30]{}'.format(root.temperature) + app.root.lang.pack['Preheat']['Celsius_100']
+        valign: 'middle'
+        halign: 'center'
+        center_x: screen.center_x
+        center_y: screen.center_y - 130
+
+<BackButtonScreen>:
+    background_color: 0,0,0,1
+
+    GridLayout:
+        rows: 2
+        orientation: 'vertical'
+        #padding: 10,0,10,17
+        BoxLayout:
+            id: title_bar
+            canvas.before:
+                Color:
+                    rgba: 0,0,0,1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            orientation: 'horizontal'
+            size_hint_y: .3
+            Button:
+                background_color: 0,0,0,1
+                id: back_button
+                on_press: app.root.go_back_to_screen(root.name, root.back_destination)
+                on_press: root.back_button()
+                size_hint_x: .2
+                Image:
+                    source: 'Icons/back.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+
+            Label:
+                id: title
+                canvas.before:
+                    Color:
+                        rgba: 0,0,0,1
+                    Rectangle:
+                        pos: title.pos
+                        size: title.size
+                text: root.title
+                font_size: 40
+                shorten: True
+                shorten_from: 'right'
+                text_size: title.size
+                halign: 'center'
+                valign: 'center'
+            Button:
+                id: cta
+                size_hint_x: .2
+                background_color: 0,0,0,1
+                on_press: root.cta()
+                Image:
+                    id: cta_image
+                    source: root.icon
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+
+        BoxLayout:
+            id: content_layout #self.content gets added to ScrollView via WifiScreen_instance.populate_layout()
+            #padding: 10,0,10,17
+            orientation: "horizontal"
+
+<File_BB>:
+    background_color: 0,0,0,1
+
+    GridLayout:
+        rows: 2
+        orientation: 'vertical'
+        #padding: 10,0,10,17
+        BoxLayout:
+            id: title_bar
+            canvas.before:
+                Color:
+                    rgba: 0,0,0,1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            orientation: 'horizontal'
+            size_hint_y: .3
+            Button:
+                background_color: 0,0,0,1
+                id: back_button
+                on_press: root.execute_back_function()
+                
+                size_hint_x: .2
+                Image:
+                    source: 'Icons/back.png'
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+
+            Label:
+                id: title
+                canvas.before:
+                    Color:
+                        rgba: 0,0,0,1
+                    Rectangle:
+                        pos: title.pos
+                        size: title.size
+                text: root.title
+                font_size: 40
+                shorten: True
+                shorten_from: 'right'
+                text_size: title.size
+                halign: 'center'
+                valign: 'center'
+            Button:
+                id: file_content
+                size_hint_x: .2
+                background_color: 0,0,0,1
+                on_press: root.execute_option_function()
+                Image:
+                    id: cta_image
+                    source: root.icon
+                    pos: file_content.pos
+                    size: file_content.size
+
+        BoxLayout:
+            id: content_layout #self.content gets added to ScrollView via WifiScreen_instance.populate_layout()
+            #padding: 10,0,10,17
+            orientation: "horizontal"
+
+<Empty_Popup>:
+    background_color: 0,0,0,1
+    id: popup
+    size_hint_x: None
+    size_hint_y: None
+    size: 700, 400
+    auto_dismiss: False
+    canvas.after:
+        Color:
+            rgba: 0.41,0.7,0.91,1
+        Line:
+            cap: 'round'
+            joint: 'round'
+            close: False
+            width: 3
+            points: popup.x, popup.y, popup.x, popup.y + 400, popup.x + 700, popup.y + 400, popup.x + 700, popup.y, popup.x,popup.y
+
+

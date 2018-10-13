@@ -1,0 +1,750 @@
+﻿#A 3D printer is a machine that takes a computer generated model and prints it in 3D. It does this by taking feeding plastic to 
+#an extruder that melts it and deposits it in layers to create the 3D model. The following text will be displayed on a built in
+#screen to help a user properly utlize their printer. 
+
+#Do not remove '\n' from the text. It means a new line on the screen.
+#Only translate text that is between quotation marks (""). 
+
+Load_Success:
+  #Replace 'English' with the language being translated into 
+  pass: "Spanish Loaded"
+
+
+Main_Screen:
+  Files: "Archivos"
+  Printer: "Impresora"
+  Utilities: "Utilidades"
+
+Printer_Status:
+  Minute_Left: "Menos de un minuto"
+  Percent: "%"
+
+
+File_Screen:
+  Z_Offset: "Z-Offset"
+  Infill: "Rellenar"
+  Layer_Height: "Capa\nAltura"
+  Layers: "Capas"
+  Estimated_Time: "Tiempo estimado"
+  Start: "Comenzar"
+  Save: "Guardar"
+  Pause: "Pausa"
+  Resume: "Reanudar"
+  Cancel: "Cancelar"
+  Canceling: "Cancelando..."
+
+File_Options:
+  Delete: "Eliminar"
+  Add_Folder: "Agregar carpeta"
+  Move_File: "Mover archivo"
+  Move_Folder: "Mover carpeta"
+  Continue: "Continuar"
+  Show_Keyboard: "Mostrar teclado"
+  New_Folder: "Nueva carpeta"
+
+
+Error:
+  File_Error: "Error de archivo"
+  File_Error_Body: "Hubo un error en el archivo seleccionado.\nInténtelo de nuevo."
+  Filament_Error: "Se ha agotado el filamento"
+  Filament_Error_Body: "Cargue más filamento y retome la impresión."
+
+## Min. Temp. is short for Minimum temperature. Please translate into a similar abbreviated equivalent. 
+##The extruder is the part that heats up and extrudes melted plastic filament through a nozzle
+##The Z-Offset is the calibrated distance between the extruder and the bed
+##The bed is the platform which plastic gets extruded onto
+
+Warning:
+  Mintemp: "Error Extrusor"
+  Mintemp_Body: "°C / 175°C\nSu ur extrusor no está lo suficientemente\ncaliente como para mover el filamento.\nAjuste la temperatura por encima de 175°C."
+  Mintemp: "Error Temp. Min."
+  Z_Offset_Warning:
+    Title: "No se estableció Z-Offset"
+    Body1: "´El Z-Offset está establecido en "
+    Body2: " Establezca\nel Z-Offset antes de utilizar esta herramienta."
+
+  Update:
+    Sub_Title: "Actualización disponible"
+    Body: "\n\n¿Le gustaría instalar la actualización?\nChangelog: [color=#69B3E7]Robo3D.com/changelogs"
+
+  USB_Progress:
+    Waiting: "En espera"
+    P_Completed: "% Completo"
+    Error: "Error"
+
+
+##The Home function signals the motors to return to their original position. 
+Popup:
+  PYes: "Sí"
+  PNo: "No"
+  OK: "OK"
+  Import_Files: "Importando archivos USB"
+  Cancel_Print: "¿Está seguro que desea\ncancelar esta impresión?"
+  MainBoard1: "No se detectó un tablero principal"
+  MainBoard2: "Intente volver a conectar"
+  Connect: "Conectar"
+  Firmware_Title: "Actualización de firmware"
+  Firmware_Body: "Su impresora se reiniciará\ncuando se termine la actualización."
+  ZOffset_Title: "El Z-Offset actual es "
+  ZOffset_Units: "mm"
+  ZOffset_Body: "Este es el ajuste estándar para Z-Offset.\n\nAjuste el Z-Offset\nantes de reanudar la impresión."
+  Continue: "OK"
+  Z_Offset: "Z-Offset"
+  Later: "Más tarde"
+  Update: "Actualización"
+  Motors_Title: "Motores apagados"
+  Motors_Body: "Para volver a encender los motores, ajuste su impresora."
+
+
+Mainboard:
+  Connection_Title: "Reajustar conexión"
+  Connection_Body: "Reajustar la conexión a los controles de la impresora."
+  Connection_Button: "Reajustar"
+
+##Wizards automate complex tasks by guiding a user through a series of actions.  
+##Slicing is a process in which a program takes a 3D model and divides it up into layers for the printer to process. 
+Utilities:
+  Wizards: "Asistentes de instalación"
+  Network: "Utilidades de red"
+  Update: "Actualización"
+  Options: "Opciones"
+  System: "Sistema"
+  Print_Tuning: "Ajuste de impresión"
+  Fan_Control: "Control de ventiladores"
+  Temp_Control: "Control de temperatura"
+  Motor_Control: "Control de motores"
+  Preheat: "Precalentar"
+  Cooldown: "Enfriar"
+  ZOffset: "Z-Offset"
+  Filament: "Filamento"
+  Slicer: "Rebanador"
+  FT_Wizard: "Ajustar el asistente de instalación"
+  Bed_Cal: "Calibración de la plataforma"
+  Start_Wifi: "Iniciar el hotspot de Wi-Fi"
+  Network_Status: "Estado de la red"
+  QR_Code: "Código QR"
+  EEPROM: "EEPROM"
+  Firmware: "Firmware"
+  MainBoard: "Estado de la conexión"
+  Tool1: "Extrusor 1"
+  Tool2: "Extrusor 2"
+  Bed: "Plataforma"
+  Webcam_Status: "Estado de la cámara"
+
+
+RoboIcons:
+  Configure_WiFi: "Configurar Wi-Fi"
+  Start_WiFi: "Iniciar Hotspot Wi-Fi"
+  Network_Status: "Estado de la red"
+  QR: "API Código QR"
+  Z_Offset: "Z-Offset"
+  Fil_Load: "Cargando\nfilamento"
+  Fil_Change: "Cambio\nfilamento"
+  Slicing: "Rebanando"
+  FTZ_Offset: "Afinar Offset"
+  Bed_Cal: "Calibración\nplataforma"
+  Tool1: "Extrusor 1"
+  Tool2: "Extrusor 2"
+  Bed: "Plataforma"
+  Preheat: "Precalentar"
+  Cooldown: "Enfriar"
+  EEPROM: "EEPROM"
+  USB: "Desmontar USB"
+  Firmware: "Firmware"
+  Motors: "Motores apagados"
+  Mainboard: "Conexión"
+  Shutdown: "Apagado"
+  Reboot: "Reinicio"
+  Wizards: "Asistentes"
+  Print_Tuning: "Ajustar\nimpresión"
+  Fan_Control: "Ventiladores"
+  Network: "Red"
+  Update: "Actualización"
+  System: "Sistema"
+  Options: "Opciones"
+  Language: "Idioma"
+  Webcam: "Cámara"
+
+
+System:
+  Shutdown_Title: "Apagando"
+  Shutdown_Body: "Luego de que la pantalla se vuelva blanda,\npuede apagar la impresora."
+  Reboot_Title: "Reiniciando"
+  Reboot_Body: "Reiniciando el sistema.\nEspere."
+  USB_Title: "USB desmontado"
+  USB_Body: "Retire el drive del USB."
+
+
+
+Robo_Controls:
+  Temperature_Controls: "Temperatura"
+  Motor_Controls: "Motores"
+
+Motor_Controls:
+  Home: "Inicio"
+  Retract: "Retraer"
+  Extrude: "Extruir"
+  Motors_Off: "Motores\napagados"
+  Raise_BP: "Subir Z"
+  Y+: "Y+"
+  Y-: "Y-"
+  X+: "X+"
+  X-: "X-"
+  Z+: "Z+"
+  Z-: "Z-"
+
+
+Temperature_Controls:
+  Extruder_1: "Extrusor 1"
+  Extruder_2: "Extrusor 2"
+  Bed: "Plataforma"
+  Preheat: "Precalentar"
+  Cooldown: "Enfriar"
+  Celsius_Alone: "°C"
+  Celsius_with_slash: "°C /"
+  Current: "Actual:"
+  Desired: "Objetivo:"
+  Delete: "Eliminar"
+  Set: "Establecer"
+  one: "1"
+  two: "2"
+  three: "3"
+  four: "4"
+  five: "5"
+  six: "6"
+  seven: "7"
+  eight: "8"
+  nine: "9"
+  zero: "0"
+
+##Keep underscores '_' in between words where shown, if multiple spaces are required for a translation use an underscore instead of a space
+WiFi:
+  Start_Hotspot: "Al iniciar un hotspot Wi-Fi, puede conectar\nsu impresora a dispositivos habilitados para Wi-Fi."
+  Start: "Iniciar"
+  Cancel: "Cancelar"
+  Retry: "Reintentar"
+  Ok: "OK"
+  AP_Title: "Hotspot Wi-Fi"
+  Empty_SSID: "Vaciar SSID"
+  Connect: "Conectar"
+  Connected: "Conectado"
+  Select_Network: "Selecionar red"
+  Show_Keyboard: "Mostrar teclado"
+  Enter_Password: "**Ingresar contraseña**"
+  Hotspot_Title: "Inicializando Hotspot"
+  Hotspot_Body: "\nEsto puede demorar hasta dos minutos."
+  Initiating: "Iniciando... Esto puede demorar hasta dos minutos."
+  Hotspot_Failure_Title: "Fallo Hotspot"
+  Hotspot_Failure_Body: "\nPulse Reintentar para volver a probar el módulo"
+  Hotspot_Success_Title: "Hotspot de Wi-Fi creado"
+  Hotspot_Success_Body: "\nAhora puede utilizar dispositivos habilitados para\nWi-Fi para conectar con su impresora."
+  Connecting: "Conectando a "
+  ellipsis: "..."
+  Time_Warning: "Esto puede demorar hasta dos minutos."
+  Success_Connect: "Conectado exitosamente a"
+  WiFi_Failure_Title: "No se pudo conectar"
+  WiFi_Failure_Body: "Asegúrese de que tiene una señal potente y\n que la contraseña que ha ingresado es correcta."
+  Connecting_dots: "Conectando..."
+  WiFi: "Wi-Fi"
+  And_Wired: " y Ethernet por cable"
+  Hot_and_Wired: "Modo Hotspot y Ethernet por cable"
+  Hot_ Mode: "Modo Hotspot"
+  Hot_IP: "10.250.250.1"
+  Wired: "Ethernet por cable"
+  No_Mode: "No está en modo hotspot o conectado a Wi-Fi"
+  Error_WiFi: "Error -- no se pudo determinar"
+  Connection_Status: "Estado de la conexión:"
+  Hostname: "Hostname:"
+  IP: "IP:"
+  Getting_Status: "Obteniendo el estado de la red..."
+
+##In this screen the extruder is being designated a temperature to heat up to. 
+##PLA and ABS are standardized types of plastic filament for 3D printers. 
+Preheat:
+  Celsius_Alone: "°C"
+  Celsius_190: "°C/190°C"
+  Celsius_100: "°C/100°C"
+  Celsius_60: "°C/60°C"
+  Heating_to: "Calentando a"
+  Heating_to_230: "Calentando a 230°C"
+  Heating_to_190: "Calentando a 190°C"
+  Material_Error: "Error: plástico no registrado"
+  Material_Message: "Precalentar el extrusor a" 
+  Choose_Type: "Elegir su tipo de filamento"
+  PLA: "PLA"
+  ABS: "ABS"
+  Stop: "Detener"
+  Printer: "Impresora"
+  PLA_C2: "Precalentar el extrusor a 190°C"
+  PLA_R2: "Precalentar el extrusor a 190°C y la plataforma de impresión a 60°C"
+  ABS_C2: "Precalentar el extrusor a 230°C"
+  ABS_R2: "Precalentar el extrusor a 230°C y la plataforma de impresión a 100°C"
+  Preheat_Head: "Extruder: " #NOT TRANSLATED
+  And_Bed: "°C Bed: " #NOT TRANSLATED
+  Extruder: "Extruder: " #NOT TRANSLATED
+  Bed: "Bed: " #NOT TRANSLATED
+  Edit: "Edit" #NOT TRANSLATED
+  Preheat: "Preheat" #NOT TRANSLATED
+  Select: "Select" #NOT TRANSLATED
+  Edit_Preset:
+    Title: "Edit Preset" #NOT TRANSLATED
+    Select_Preset: "Select Preset" #NOT TRANSLATED
+    Name: "Name: " #NOT TRANSLATED
+    Name_Default: "Untitled" #NOT TRANSLATED
+    Set_Name: "Set the preset name" #NOT TRANSLATED
+    Ext: "Extruder: " #NOT TRANSLATED
+    Ext_Body: "Set the extruder temperature" #NOT TRANSLATED
+    Bed: "Bed: " #NOT TRANSLATED
+    Bed_Body: "Set the print bed temperature" #NOT TRANSLATED
+    Save: "[size=30]Save[/size]" #NOT TRANSLATED
+    Delete: "[size=30]Delete[/size]" #NOT TRANSLATED
+  Keyboard:
+    Title: "Edit Name" #NOT TRANSLATED
+  Keypad:
+    Title: "Edit Temperature" #NOT TRANSLATED
+  Errors:
+    Ext1_Error: "\nExtruder Error" #NOT TRANSLATED
+    Ext1_Body: "Extruder was set above 290°C. Robo has\nautomatically set the extruder to 290°C" #NOT TRANSLATED
+    Bed_Error: "\nBed Error" #NOT TRANSLATED
+    Bed_Body: "Print Bed was set above 100°C. Robo has\nautomatically set the bed to 100°C" #NOT TRANSLATED
+  Delete:
+    Title: "Delete Preset" #NOT TRANSLATED
+    Body: "Are you sure you want to delete settings for\n" #NOT TRANSLATED
+    Q_Mark: "?" #NOT TRANSLATED
+    positive: "Delete" #NOT TRANSLATED
+    negative: "Cancel" #NOT TRANSLATED
+    Deleted: "has been deleted." #NOT TRANSLATED
+  Duplicate:
+    Title: "Error Detected" #NOT TRANSLATED
+    Body_Text: "There is already a preset named\n" #NOT TRANSLATED
+    Body_Text1: "\nWould you like to overwrite it?" #NOT TRANSLATED
+    option1: "Overwrite" #NOT TRANSLATED
+    option2: "Cancel" #NOT TRANSLATED
+#The Filament Wizard is a tool that guides the user through the process of loading plastic filament into extruder for printing. 
+##Plastic filaments are packaged in spools, which are reels of material.  
+Filament_Wizard:
+  Wizard_Description: "Use este asistente para cargar un nuevo carrete de\nfilamento en su impresora."
+  Start: "Iniciar"
+  Heat_230: "Calentando a 230°C"
+  Celsius_Alone: "°C"
+  Auto_Next: "Calentando el extrusor. El asistente irá al paso siguiente\ncuando alcance la temperatura objetivo."
+  Remove_Filament: "Retire el filamento de su impresora."
+  Next: "Siguiente"
+  Cut_Tip: "Recorte el extremo del filamento, entonces cargue el\nfilamento limpio con la punta hacia el extrusor."
+  Extrude_Filament: "Pulse Siguiente cuando vea el filamento\nextyendo de la tobera."
+  Complete_Title: "Asistente completo"
+  Complete_Body: "\n¡Su nuevo filamento está listo para la impresión!"
+  Ok: "OK"
+
+  Title_15: "Preparando la impresora"
+  Title_25: "Retirar el filamento"
+  Title_35: "Cargar el filamento"
+  Title_45: "Extruir el filamento"
+  Title_55: "Cambio de filamento completo"
+
+  Title_14: "Preparando la impresora"
+  Title_24: "Cargar el filamento"
+  Title_34: "Extruir el filamento"
+  Title_44: "Carga del filamento completa"
+
+
+#The Z Offset Wizard is a tool that guides the user to calibrate the distance between the Extrusor and the printing bed. 
+#XYZ are the variables used to characterize a 3 Dimensional Space
+ZOffset_Wizard:
+  Wizard_Description: "Utilice este asistente para establecer el valor de Z-Offset de la impresora. Ello establece la altura de la plataforma cuando se está imprimiendo. Asegúrese que la tobera está limpia antes de utilizar esta herramienta."
+  Start: "Iniciar"
+  Auto_Next: "Posicionando el eje Z. El asistente irá al paso\nsiguiente cuando este se haya completado."
+  Adjust_Instructions: "Coloque la herramienta Z-Offset entre la plataforma de impresión y la tobera del extrusor. Ajuste la altura de la plataforma hasta que sienta una leve resistencia cuando desliza la tarjeta."
+  Z+: "Z+"
+  Z-: "Z-"
+  Done: "Hecho"
+  Capture_Offset: "Capturando el valor de Z-Offset. El asistente\n irá al paso siguiente cuando este se haya completado."
+  Finish_Title: "Asistente completo"
+  Finish_Body1: "El nuevo valor de Z-Offset"
+  Finish_Body2: "se ha capturado."
+  Save: "Guardar"
+  Cooldown: "Enfirando el extrusor y la plataforma de impresión.\nEl asistente irá al paso siguiente cuando este se haya\ncompletado."
+  Welcome: "Asistente Z-Offset"
+  Wait: "Preparando la impresora"
+  Z_14: "Preparando la impresora"
+  Z_24: "Ajustar la altura de la plataforma"
+  Z_34: "Capturando Z-Offset"
+  Z_44: "Z-Offset capturado"
+
+
+Print_Tuning:
+  Fan_Speed: "Velocidad del ventilador"
+  Print_Speed: "Velocidad de la impresora"
+  Flow_Rate: "Índice de flujo"
+  Printing_Speed: "Velocidad de impresión"
+  
+#The EEPROM screen has various settings for the printer that can be customized
+EEPROM:
+  Apply: "Aplicar"  
+  Home_Offset: "Inicio offset"
+  Probe_Offset: "Prueba offset"
+  Filament_Settings: "Ajustes del filamento"
+  Feed_Rates: "Tasas de alimentación"
+  PID_Settings: "Ajustes PID"
+  Bed_PID: "Ajustes PID de la plataforma"
+  Steps_Unit: "Pasos por unidad"
+  Accelerations: "Aceleraciones"
+  Max_Accelerations: "Aceleraciones máximas"
+  Advanced: "Variables avanzadas"
+  Reset: "Reakistar EEPROM"
+  Error_Title: "Valor cambiado"
+  Error_Body: "El valor ha sido aplicado al EEPROM"
+
+##Slicing is a process in which a program takes a 3D model and turns it into a printable file. 
+##The infill is the density within the model.
+Slicing_Wizard:
+  Wizard_Description: "Use este asistente para preparar los archivos STL\npara imprimir. El tiempo de rebanado variará dependiendo\ndel tamaño del archivo."
+  Continue: "Iniciar"
+  Layer_Height: "Altura\nde la capa"
+  Infill: "% llenado"
+  Material: "Material"
+  Raft: "Balsa"
+  Supports: "Soportes"
+  
+
+FT_ZOffset_Wizard:
+  Side_View: "Vista lateral"
+  Front_View: "Vista frontal"
+  Bed_High: "Demasiado alta"
+  Bed_Ideal: "Ideal"
+  Bed_Low: "Demasiado baja"
+  Test_Instructions: "Use los botones de abajo para ajustar y probar el offset actual.\n"
+  Bed_Down: "Abajo"
+  Bed_Up: "Levantada"
+  Test_Offset: "Probar\nOffset"
+
+  Welcome:
+    Title: "Afinar el Z-Offset"
+    Body: "Use este asistente para afinar el Z-Offset.\nAsegúrese que el filamento PLA está cargado antes\nde usar esta herramienta."
+
+  Set_Mode:
+    Title: "Modo de afinado"
+    Sub_Title: "Elegir una esquina para comenzar"
+    Body: "\nComenzar por la esquina derecha o izquierda."
+    Option1: "Izquierda"
+    Option2: "Derecha"
+
+  Z_Error:
+    Title: "No se ajustó el Z-Offset"
+    Body: "El Z-Offset está ajustado para "
+    Body1: " Ajuste el\ntZ-Offset antes de usar esta herramienta."
+
+#Here do not change what is inside the brackets []. 
+  Prepare_Lines:
+    Title: "Preparando la impresora"
+    Sub_Title: "Preparando la impresora"
+    Body: "Espere mientras que la impresora se prepara\npara el paso siguiente.\n[color=FF0000]Cuidado: ¡El extrusor está caliente! No lo toque.[/color]"
+
+  Warn_Restart:
+    Title: "Retirar el plástico"
+    Body: "Retire todo el plástico de la plataforma antes de proceder."
+
+
+  Instruction:
+    Title: "Instrucciones"
+    Body: "Para probar el Z-Offset actual, imprima una línea en\nla plataforma. Luego ajuste la altura de la plataforma\nhasta encontrar el valor ideal. Mire en la próxima\npantalla para tener una referencia visual."
+
+
+  Update_HO:
+    Title: "Ajustar el offset"
+
+  Choose_Finish:
+    Title: "Guardar el nuevo Z-Offset"
+    Sub_Title: "¿Ha terminado?"
+    Body: "Pulse Elegir esquina para continuar su prueba,\no guarde para salir del asistente."
+    Option1: "Elegir esquina"
+    Option2: "Guardar"
+
+  Finish:
+    Title: "Z-Offset guardado"
+    Sub_Title: "Asistente completo"
+    Body: "El valor de Z-Offset es ahora "
+
+
+  Update_Offset:
+    mm_001: "0.01mm"
+    mm_005: "0.05mm"
+    Body: "Use el botón de abajo para ajustar y probar el offset actual."
+
+#The firmware wizard guides a user through the process of updating the version of the printer software. 
+#Hex files are the file type that contains the software update
+Firmware_Wizard:
+  Select_Firmware: "Seleccionar el firmware"
+  Hex_Error_Title: "No hay archivo Hex"
+  Hex_Error_Body: "Proporcione un archivo\nhex válido en una unidad USB."
+  Confirm_Hex: "Confirmar el archivo Hex"
+  Start_Firmware: "Pulse Iniciar para actualizar el firmware.\nEsta acción restaurará todos los ajustes predeterminados."
+  Start: "Iniciar"
+
+#The bed calibration wizard is a guide that instructs the user to calibrate the bed to lay flat
+Bed_Cal_Wizard:
+  Welcome:
+    Title: "Asistente de calibración de la plataforma"
+    Body: "Use este asistente para nivelar manualmente la plataforma\nde impresión ajustando los tornillos debajo de las cuatro\nesquinas de la plataforma."
+    Button: "Iniciar"
+
+#Ignore what is in the brackets. 
+  Tilt_Instructions:
+    Title: "Verificar inclinación"
+    Body: "Asegúrese que la plataforma está colocada en forma correcta. [color=#69B3E7]Empuje en cada esquina.[/color]\nSi una esquina está inclinada,\nadjuste el tornillo debajo hasta corregir la inclinación."
+    Button: "Siguiente"
+
+  Mode:
+    Title: "Modo selección"
+    Sub_Title: "Elegir el modo"
+    Body: "Elegir Guiado para una experiencia completamente paso a paso.\nElegir Manual para una opción más rápida y avanzada."
+    Button1: "Manual"
+    Button2: "Guiado"
+
+  Prepare:
+    Title1: "Manual"
+    Title2: "Guiado"
+    Sub_Title: "Preparando la impresora"
+    Body: "Espere mientras la impresora se prepara\npara el siguiente paso."
+
+  Guided_Instructions:
+    Title: "Ajuste fino"
+    Error: "Error"
+    L_Point: "Esquina frontal izquierda"
+    LF_Screw: "tornillo frontal izquierdo"
+    R_Point: "Esquina frontal derecha"
+    RF_Screw: "tornillo frontal derecho"
+    BR_Point: "Esquina posterior derecha"
+    BR_Screw: "tornillo posterior derecho"
+    BL_Point: "Esquina posterior izquierda"
+    BL_Screw: "tornillo posterior izquierdo"
+    Body1: "Ajustar el " 
+    Body2: " \najustando la herramienta Z-Offset."
+    Button_Text: "Siguiente" #NOT TRANSLATED
+
+  Manual_Instructions:
+    Title: "Ajuste fino"
+    Sub_Title: "Seleccione una esquina y ajuste el tornillo correspondiente."
+    Left: "Frontal izquierdo"
+    Right: "Frontal derecho"
+    Back_Right: "Trasero derecho"
+    Back_Left: "Trasero izquierdo"
+
+  Finish_Wizard:
+    Title: "Calibración de la plataforma completa"
+    Sub_Title: "Asistente completo"
+    Body: "¡Está listo para imprimir!"
+
+#Here do not translate \robo.profile\
+Slicer_Wizard:
+  Confirmation:
+    Title: "Asistente de rebanado"
+    Button: "Terminado"
+  Select_File:
+    Title: "Seleccionar archivo STL"
+  Overrides:
+    Title: "Elegir las opciones de rebanado"
+  Progress:
+    Sub_Title: "Rebanando "
+  Error:
+    Profile:
+      Sub_Title: "Error de perfil"
+      Body: "El perfil \"robo.profile\" no existe\ny no se puede restaurar automáticamente."
+    Slice:
+      Sub_Title: "Falla en el rebanado"
+      Body: "El archivo no se pudeo rebanar correctamente.\nVuelva a intentar."
+
+#Overhangs are shapes in a 3D model that have no material or structure beneath them. 
+  Raft_Support:
+    Title: "Balsa y soportes"
+    Body: "Una balsa mejora la adhesión a la plataforma de impresión.\nSe sugieren apoyos para impresiónes con partes colgantes profundas."
+    Supports: "Soportes"
+    Raft: "Balsa"
+
+  Print_Quality:
+    Title: "Calidad de impresión"
+    Body: "Un menor grosor de las capas produce una mejor calidad de\nimpresión, pero también aumenta el tiempo de impresión."
+
+    mm_20: "0.20 mm"
+    mm_15: "0.15 mm"
+    mm_10: "0.10 mm"
+    mm_06: "0.06 mm"
+  
+  Infill:
+    Title: "Densidad de rellenado"
+    Body: "El rellenado determina la densidad interna de la impresión."
+    p_0: "0%"
+    p_10: "10%"
+    p_25: "25%"
+    p_100: "100%"
+
+  Material:
+    Title: "Material de impresión"
+    Body: "PLA ajusta el extrusor a 190°C y la plataforma a 60°C.\nABS ajusta el extrusor a 230°C y la plataforma a 80°C"
+    PLA: "PLA"
+    ABS: "ABS"
+
+Refresh_Screen:
+  Soft_Reset:
+    Status: "Conexión fuera de línea"
+    Title: "Conexión interrumpida"
+    Please: "Por favor "
+    Body: " la conexión a los controles de la impresora Si\npersiste el error, llame al servicio al cliente e informe:\n"
+
+  Reset:
+    Title: "en curso "
+    Body: "Desconectando. La pantalla puede congelarse temporariamente."
+
+  Update_Connection:
+    Successful: " exitosa"
+    In_Progress: " en curso"
+    bed_connect: "Verificando la conexión a la plataforma"
+    offline: "Desconectado"
+
+Firmware:
+  Title: "El firmware se está actualizando"
+  Body: "Espere.. Most functions are disabled until the\nupdate is complete."
+
+Bed_Hot:
+  Title: "La plataforma de impresión está caliente"
+  Body: "No retire la plataforma de la impresión mientras está en uso.\nSi lo hace puede causar un daño permanente a la plataforma."
+
+Filament:
+  Title: "Filamento agotado"
+  Body: "\nRecargue mas filamento cuando la impresora se pausa.\nLuego reanude la impresora."
+  Button1: "OK"
+  Button2: "Asistente de filamento"
+
+#Robo is the product name
+Error_Detection:
+  MAINBOARD:
+    Title: "Error de conexión"
+    Body: "Reajuste la conexión"
+    Connection_Offline: "Conexión desconectada"
+    E_Sub_Title: "Conexión interrumpida"
+    E_Body: "Reajuste la conexión a los controles de la impresora. Si If\npersiste el error llame al servicio al cliente e informe:\n"
+    E_Button: "Reajustar"
+    E_Title: "Error detectado"
+  FIRMWARE:
+    Title: "Se está actualizando el firmware"
+    Body: "Espere"
+    E_Title: "Actualización de firmware"
+  BED_HOT:
+    Title: "La plataforma de impresión está caliente"
+    Body: "No retire la plataforma"
+  BED_DISCONNECT:
+    Title: "La plataforma de impresión está desconectada"
+    Body: "Vuelva a conectar la plataforma"
+    E_Sub_Title: "La plataforma de impresión está desconectada"
+    E_Body: "Vuelva a poner la plataforma de impresión en su lugar, luego vuelva a conectar."
+    E_Button: "Reconectar"
+    E_Title: "Estado de la plataforma de impresión"
+  PAUSED:
+    Title: "Impresión pausada"
+    Body: "Reinicie cuando esté pronto"
+  FIL_RUNOUT:
+    Title: "Filamento agotado"
+    Body: "Vuelva a cargar más filamento"
+    E_Title: "Estatus del filamento"
+  DEFAULT:
+    Title_Idle: "Robo listo"
+    Title_Active: "Robo activo"
+    Body_Idle: "¡Vamos a imprimir algo!"
+    Body_Active: "Impresión en curso."
+
+Files:
+  File_Options:
+    Title: "Opciones de archivo"
+    Move: "Mover archivo"
+    MoveF: "Mover carpeta"
+    Delete: "Eliminar"
+    AddF: "Agregar carpeta"
+
+  Error:
+    Title: "No se puede eliminar el archivo"
+    Body: "Vuelva a intentarlo.\nSi esto persiste,\nverifique su sistema de archivos en busca de errores."
+
+  Move_Error:
+    Title: "El archivo no se puede mover"
+    Body: "Si el error persiste, el archivo que está intentando\nmover puede ya existir en ese lugar."
+
+  Warning:
+    Title: "Guardando"
+    Body: "Espere..."
+
+  Keyboard:
+    Title: "Nombre de la carpeta"
+    New_Folder: "Nueva_Carpeta"
+    Default_Title: "Keyboard" #NOT TRANSLATED
+
+  Save_File:
+    Title: "Guardar archivo"
+    Sub_Title: "Archivo guardado"
+    Body: " ha sido guardado."
+
+  File_Status:
+    Title: ""
+    Busy: "Impresora ocupada"
+    Start: "Iniciar"
+
+  File_Error:
+    Title: "Error de archivo"
+    Body: "Hubo un error en el archivo seleccionado.\nVuelva a intentarlo."
+
+  File_Saved:
+    Title: "Archivo guardado"
+    Body: "El archivo ha sido guardado en el\ndirectorio local."
+
+Update_Printer:
+  Checking: "Verificando..."
+  Connection_Error: "Error de conexión"
+  Connect_Error:
+    Title: "Error de conexión"
+    Body: "Verifique la conexión de internet."
+  Loading:
+    Title: "Cargando actualización"
+    Body: "Esto puede demorar hasta un minuto."
+  No_Update:
+    Title: "Notificación de actualización"
+    Body: "No es necesario actualizar."
+  Welcome:
+    Installed: "Instalado:"
+    Available: "Disponible:"
+    RoboOS: "RoboOS"
+    Update: "Actualizar"
+    Up2Date: "Al día"
+
+Button_Screen:
+  Default_Button: "OK"
+
+Tool_Status:
+  Tool1: "Temp. Extrusor 1"
+  Tool2: "Temp. Extrusor 2"
+  Bed: "Temp. Plataforma"
+
+Switch_Lang:
+  Welcome:
+    Title: "Seleccionar idioma"
+  Confirmation:
+    Title: "Seleccionado "
+    Body1: "Se cambió el idioma a "
+    Body2: ".\nLa impresora se reiniciará."
+    Button: "OK"
+  Choose:
+    Select: "Seleccionar "
+    Switch_to: "Cambiar a "
+    Are_You_Sure: "¿Está seguro que desea seleccionar este idioma?"
+    Yes_option: "Sí"
+    No_option: "No"
+    Question: ""
+
+Webcam:
+  Sub_Title: "Verificando el estado"
+  Body: "Use el botón de abajo para cambiar el\nestado de la cámara."
+  Button: "Verificando el estado"
+  Webcam_On: "La cámara está encendida"
+  Webcam_Off: "La cámara está apagada"
+  Button_On: "Encendida"
+  Button_Off: "Apagada"
+
+

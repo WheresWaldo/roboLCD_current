@@ -1,0 +1,984 @@
+#Please read all comments marked with #
+#Do not remove '\n' from the text. It means a new line on the screen.
+#Only translate text that is between quotation marks ("").
+
+Load_Success:
+  #Replace 'English' with the language being translated into
+  pass: "English Loaded"
+
+#https://docs.google.com/presentation/d/16jVMkRUa_RTTgvGakc6jX5m7wA8YPxQbMaOtkY1dDCo/edit#slide=id.p
+Main_Screen:
+  Files: "Files"
+  Printer: "Printer"
+  Utilities: "Utilities"
+
+#https://docs.google.com/presentation/d/16jVMkRUa_RTTgvGakc6jX5m7wA8YPxQbMaOtkY1dDCo/edit#slide=id.g23e8891638_0_0
+Printer_Status:
+  Minute_Left: "Less than a minute"
+  Percent: "%"
+
+#https://docs.google.com/presentation/d/16jVMkRUa_RTTgvGakc6jX5m7wA8YPxQbMaOtkY1dDCo/edit#slide=id.g23e8891638_0_0
+#https://docs.google.com/presentation/d/16jVMkRUa_RTTgvGakc6jX5m7wA8YPxQbMaOtkY1dDCo/edit#slide=id.g24aeb5eac6_0_0
+File_Screen:
+  Z_Offset: "Z-Offset"
+  Infill: "Infill"
+  Layer_Height: "Layer\nHeight"
+  Layers: "Layers"
+  Estimated_Time: "Estimated Time"
+  Get_Meta: "Loading Meta Data"
+  Start: "Start"
+  Save: "Save"
+  Pause: "Pause"
+  Resume: "Resume"
+  Cancel: "Cancel"
+  Canceling: "Cancelling..."
+
+Error:
+  File_Error: "File Error"
+  File_Error_Body: "There was an error with the selected file.\nPlease try again."
+  # https://drive.google.com/open?id=13kowfaZp4buygNewhMEuHXeXxFs93PbfXvK1Xl3509g
+  Filament_Error: "Filament Has Run Out"
+  Filament_Error_Body: "Please load more filament and resume the print."
+
+Warning:
+  Mintemp: "Extruder Error"
+  Mintemp_Body: "°C / 175°C\nYour extruder is not hot enough to move\nfilament. Please set a temperature\nabove 175°C."
+  Mintemp: "Min. Temp. Error"
+  Heater_Not_Found: "Heater Is Not Found"
+  Heater_Not_Found_Body: "The selected heater cannot be found.\n Make sure the correct firmware is installed"
+  Z_Offset_Warning:
+    Title: "Z-Offset Not Set"
+    Body1: "The Z-Offset is set to "
+    Body2: " Please set\nthe Z-Offset before using this tool."
+
+  #https://docs.google.com/presentation/d/1iEd7ki0_fwSYEnNK841HurdfQlp2GWo3jn3CdA2OZVw/edit#slide=id.g23e889f9e4_0_19
+  Update:
+    Sub_Title: "Update Available"
+    Body: "\n\nWould you like to install the update?\nChangelog: [color=#69B3E7]Robo3D.com/changelogs"
+
+  USB_Progress:
+    Waiting: "Waiting"
+    P_Completed: "% Completed"
+    Error: "Error"
+
+Popup:
+  PYes: "[size=30]Yes"
+  PNo: "[size=30]No"
+  OK: "OK"
+  Import_Files: "Importing USB Files"
+  Cancel_Print: "Are you sure you want to cancel this print?"
+  MainBoard1: "Main Board Not Detected"
+  MainBoard2: "Try to Reconnect"
+  Connect: "Connect"
+  Firmware_Title: "Update Firmware"
+  Firmware_Body: "Your printer will restart\nafter the update is finished."
+  ZOffset_Title: "Current Z-Offset is "
+  ZOffset_Units: "mm"
+  ZOffset_Body: "This is the default setting for the Z-Offset.\n\nPlease set the Z-Offset\nbefore resuming the print."
+  Continue: "Start Print"
+  Z_Offset: "Z-Offset"
+  Later: "Later"
+  Update: "Update"
+  Motors_Title: "Motors Disengaged"
+  Motors_Body: "To re-engage motors, home your printer."
+
+
+Mainboard:
+  Connection_Title: "Reset Controls"
+  Connection_Body: "Reset the connection to the printer controls."
+  Connection_Button: "Reset"
+
+
+Utilities:
+  Wizards: "Wizards"
+  Network: "Network"
+  Update: "Update"
+  Options: "Options"
+  System: "System"
+  Print_Tuning: "Print Tuning"
+  Fan_Control: "Fan Control"
+  Temp_Control: "Temperature Control"
+  Motor_Control: "Motor Control"
+  Preheat: "Select Material" #NOT_TRANSLATED
+  Cooldown: "Cooldown"
+  ZOffset: "Z-Offset"
+  Filament: "Filament"
+  Slicer: "Slicing"
+  FT_Wizard: "Fine Tune Wizard"
+  Bed_Cal: "Bed Calibration"
+  Start_Wifi: "Start Wi-Fi Hotspot"
+  Network_Status: "Network Status"
+  QR_Code: "QR Code"
+  Access_Control: "Access Control Enabled"
+  EEPROM: "EEPROM"
+  Firmware: "Firmware"
+  MainBoard: "Connection Status"
+  Tool1: "Extruder 1"
+  Tool2: "Extruder 2"
+  Tool: "Extruder"
+  Bed: "Bed"
+  Webcam_Status: "Camera Status"
+
+QR_AC_Code: "Log into the web dashboard to find the\nAPI QR Code in your settings."
+
+
+RoboIcons:
+  Configure_WiFi: "Configure Wi-Fi"
+  Start_WiFi: "Start Wi-Fi Hotspot"
+  Network_Status: "Network Status"
+  QR: "API QR Code"
+  Z_Offset: "Z-Offset"
+  Fil_Load: "Filament Load"
+  Fil_Change: "Filament Change"
+  Slicing: "Slicing"
+  FTZ_Offset: "Fine Tune Offset"
+  Bed_Cal: "Bed Calibration"
+  Tool1: "Extruder 1"
+  Tool2: "Extruder 2"
+  Tool: "Extruder"
+  Bed: "Bed"
+  Preheat: "Preheat"
+  Cooldown: "Cooldown"
+  EEPROM: "EEPROM"
+  USB: "Unmount USB"
+  Firmware: "Update Firmware"
+  Motors: "Motors Off"
+  Mainboard: "Reset Controls"
+  Shutdown: "Shut Down"
+  Reboot: "Restart"
+  Wizards: "Wizards"
+  Print_Tuning: "Print Tuning"
+  Fan_Control: "Fan Control"
+  Network: "Network"
+  Update: "Update"
+  System: "System"
+  Options: "Options"
+  Language: "Language"
+  Webcam: "Camera"
+
+
+System:
+  Shutdown_Title: "Shutting Down"
+  Shutdown_Body: "After the screen turns blank,\nyou may power off the printer."
+  Shutdown_Confirmation: #NOT_TRANSLATED
+    Title: "Shut Down Printer" #NOT_TRANSLATED
+    Body_Text: "Are you sure you want to shut down the printer?" #NOT_TRANSLATED
+  Reboot_Confirmation: #NOT_TRANSLATED
+    Title: "Restart Printer" #NOT_TRANSLATED
+    Body_Text: "Are you sure you want to restart the printer?" #NOT_TRANSLATED
+  Reboot_Title: "Restarting"
+  Reboot_Body: "Please wait."
+  USB_Title: "USB Unmounted"
+  USB_Body: "Please remove the USB drive."
+  positive: "Yes"
+  negative: "No"
+
+
+
+# https://drive.google.com/open?id=16jVMkRUa_RTTgvGakc6jX5m7wA8YPxQbMaOtkY1dDCo
+Robo_Controls:
+  Temperature_Controls: "Temp. Controls"
+  Motor_Controls: "Motor Controls"
+
+#https://docs.google.com/presentation/d/1me8Q0OUtd5Ect7NhsfIgWeYL734LlYm51LuODFNStDA/edit#slide=id.p
+Motor_Controls:
+  Home: "Home"
+  Retract: "Retract"
+  Extrude: "Extrude"
+  Motors_Off: "Motors Off"
+  Raise_BP: "Raise Z"
+  Y+: "Y+"
+  Y-: "Y-"
+  X+: "X+"
+  X-: "X-"
+  Z+: "Z+"
+  Z-: "Z-"
+
+# https://drive.google.com/open?id=1IBkq4eQFuOIp7n_Px2KOKwz1vbk8tf9l7ih2eJysXL8
+Temperature_Controls:
+  Extruder_1: "Extruder 1"
+  Extruder_2: "Extruder 2"
+  Extruder: "Extruder"
+  Bed: "Bed"
+  Preheat: "Preheat"
+  Cooldown: "Cooldown"
+  Celsius_Alone: "°C"
+  Celsius_with_slash: "°C/"
+  Current: "Current:"
+  Desired: "Target:"
+  Delete: "Delete"
+  Set: "Set"
+  one: "1"
+  two: "2"
+  three: "3"
+  four: "4"
+  five: "5"
+  six: "6"
+  seven: "7"
+  eight: "8"
+  nine: "9"
+  zero: "0"
+
+#Keep underscores '_' in between words where shown, if multiple spaces are required for a translation use an underscore instead of a space
+# https://drive.google.com/open?id=0BzFKb1u9WhGPbnJDR1d0UnFWbFE
+WiFi:
+  Start_Hotspot: "By starting a Wi-Fi hotspot, you can connect\nto your printer through Wi-Fi enabled devices."
+  Start: "Start"
+  Cancel: "Cancel"
+  Retry: "Retry"
+  Ok: "OK"
+  AP_Title: "Wi-Fi Hotspot"
+  Empty_SSID: "EMPTY SSID"
+  Connect: "Connect"
+  Connected: "Connected"
+  Select_Network: "Select Network"
+  Show_Keyboard: "Show_Keyboard"
+  Enter_Password: "**Enter_Password**"
+  Hotspot_Title: "Hotspot Initiating..."
+  Hotspot_Body: "\nThis may take up to two minutes."
+  Initiating: "Initiating... This may take up to two minutes."
+  Hotspot_Failure_Title: "Hotspot Failed"
+  Hotspot_Failure_Body: "\nPress Retry to refresh the network module."
+  Hotspot_Success_Title: "Wi-Fi Hotspot Created"
+  Hotspot_Success_Body: "\nYou can now use Wi-Fi enabled devices to\nconnect to your printer."
+  Connecting: "Connecting to "
+  ellipsis: "..."
+  Time_Warning: "This may take up to two minutes."
+  Success_Connect: "Successfully connected to"
+  WiFi_Failure_Title: "Unable to connect"
+  WiFi_Failure_Body: "Make sure you have a strong signal and\n the password you entered is correct."
+  Connecting_dots: "Connecting..."
+  WiFi: "Wi-Fi"
+  And_Wired: " and wired Ethernet"
+  Hot_and_Wired: "Hotspot mode and wired Ethernet"
+  Hot_ Mode: "Hotspot mode"
+  Hot_IP: "10.250.250.1"
+  Wired: "Wired Ethernet"
+  No_Mode: "Not in hotspot mode or connected to Wi-Fi"
+  Error_WiFi: "Error -- could not determine"
+  Connection_Status: "Connection Status:"
+  Hostname: "Hostname:"
+  IP: "IP:"
+  Getting_Status: "Getting network status..."
+
+# https://drive.google.com/open?id=1lpM9q8Ajjh-B7IMms_JRZgf41O1z0Y9EY8iLHZcs2OQ
+Preheat:
+  Celsius_Alone: "°C"
+  Celsius_190: "°C/190°C"
+  Celsius_100: "°C/100°C"
+  Celsius_60: "°C/60°C"
+  Heating_to: "Heating to"
+  Heating_to_230: "Heating to 230°C"
+  Heating_to_190: "Heating to 190°C"
+  Material_Error: "Error: plastic not registered"
+  Material_Message: "Preheat the extruder to"
+  Choose_Type: "Choose your filament type"
+  PLA: "PLA"
+  ABS: "ABS"
+  Stop: "Stop"
+  Printer: "Printer"
+  PLA_C2: "Heat the extruder to 190°C"
+  PLA_R2: "Heat the extruder to 190°C and the print bed to 60°C"
+  ABS_C2: "Heat the extruder to 230°C"
+  ABS_R2: "Heat the extruder to 230°C and the print bed to 100°C"
+  Preheat_Head: "Extruder: "
+  And_Bed: "°C Bed: "
+  Extruder: "Extruder: "
+  Extruder1: "Extruder 1: "
+  Extruder2: "Extruder 2: "
+  Bed: "Bed: "
+  Edit: "Edit"
+  Preheat: "Preheat"
+  Select: "Select"
+  Edit_Preset:
+    Title: "Edit Material"
+    Select_Preset: "Material Info"
+    Add_Material: "Create New Material"
+    Name: "Name: "
+    Name_Default: "Untitled"
+    Set_Name: "Set the material name"
+    Ext: "Extruder: "
+    Ext_Body: "Set the extruder temperature"
+    Bed: "Bed: "
+    Bed_Body: "Set the print bed temperature"
+    Save: "[size=30]Save[/size]"
+    Delete: "[size=30]Delete[/size]"
+  Edit_Preset_Dual:
+    Extruder1: "Extruder 1: "
+    Ext1_Body: "Set temp for Extruder 1"
+    Extruder2: "Extruder 2: "
+    Ext2_Body: "Set temp for Extruder 2"
+  Keyboard:
+    Title: "Edit Name"
+  Keypad:
+    Title_ext1: "Edit Extruder Temp."
+    Title_dual_ext1: "Edit Extruder 1 Temp."
+    Title_dual_ext2: "Edit Extruder 2 Temp."
+    Title_bed: "Edit Bed Temp."
+
+  Errors:
+    Ext1_Error: "\nMax. Temp. Warning"
+    Ext1_Body: "The max. temp. for the extruder is 290°C"
+    Bed_Error: "\nMax. Temp. Warning"
+    Bed_Body: "The max. temp. for the print bed is 100°C"
+  Delete:
+    Title: "Delete Material"
+    Body: "Are you sure you want to delete settings for\n [color=#69B3E7][font=fonts/S-Core - CoreSansD55Bold.otf][b]"
+    Q_Mark: "[/color][/b][/font]?"
+    positive: "Delete"
+    negative: "Cancel"
+    Deleted: "has been deleted."
+  Duplicate:
+    Title: "Duplicate Name"
+    Body_Text: "There is already a material named\n[color=#69B3E7][font=fonts/S-Core - CoreSansD55Bold.otf][b]"
+    Body_Text1: "\n[/color][/b][/font]Would you like to overwrite it?"
+    option1: "Overwrite"
+    option2: "Cancel"
+
+# https://drive.google.com/open?id=1VgABcOtuwsnB-VknxPoIZpQNsRTxRebdJobK_mkPpSc
+Filament_Wizard:
+  Wizard_Description: "Use this wizard to load a new filament spool into your printer."
+  Start: "Start"
+  Heat_230: "Heating to "
+  Celsius_Alone: "°C"
+  Auto_Next: "The wizard will go to the next step once the\ntarget temperature is reached."
+  Remove_Filament: "Remove the filament from your printer."
+  Next: "Next"
+  Cut_Tip: "Clip the end of the filament, then load the clean\nfilament tip through the extruder."
+  Extrude_Filament: "Press Next when you see filament\nextruding out of the nozzle."
+  Complete_Title: "Wizard Complete"
+  Complete_Body: "Your new filament is ready for printing!"
+  Ok: "OK"
+  Prep_Ext1: "Heating Extruder 1"
+  Prep_Ext2: "Heating Extruder 2"
+  Prep_Single: "Heating Extruder"
+
+  Title_15: "Preparing Printer"
+  Title_25: "Remove Filament"
+  Title_35: "Load Filament"
+  Title_45: "Extrude Filament"
+  Title_55: "Filament Change Complete"
+
+  Title_14: "Preparing Printer"
+  Title_24: "Load Filament"
+  Title_34: "Extrude Filament"
+  Title_44: "Filament Load Complete"
+
+# https://drive.google.com/open?id=1bAXEAEQoVEFHL2dvBLB0XiQA6E9x9lHr3dHif4G90kA
+ZOffset_Wizard:
+  Wizard_Description: "Use this wizard to set the printer's Z-Offset value.\nThis sets the height of the bed when printing.\nBe sure the nozzle is clean before using this tool."
+  Start: "Start"
+  Auto_Next: "Positioning the Z Axis. The wizard will\ngo to the next step once this is complete."
+  Adjust_Instructions: "Place the Z-Offset Tool between the print bed and the extruder nozzle. Adjust the height of the bed until you feel slight resistance when sliding the card."
+  Z+: "Z+"
+  Z-: "Z-"
+  Done: "Done"
+  Capturing: "Capturing Z-Offset..."
+  Capture_Offset: "Capturing the Z-Offset value. The wizard will go to the next step once this is complete."
+  Finish_Title: "Wizard Complete"
+  Finish_Body1: "The new Z-Offset value of"
+  Finish_Body2: "has been saved."
+  Save: "Ok"
+  Cooldown: "Cooling the extruder and print bed to a safe temperature.\nThe wizard will go to the next step once this is complete."
+  Welcome: "Z-Offset Wizard"
+  Wait: "Preparing Printer"
+  Z_14: "Preparing Printer"
+  Z_24: "Adjust Bed Height"
+  Z_34: "Capturing Z-Offset"
+  Z_44: "Z-Offset Captured"
+  zero_five: "0.05mm"
+  one_zero: "0.1mm"
+  two_zero: "0.2mm"
+
+# https://drive.google.com/open?id=137QBx6Mrh9I5fQvSg3zSah92BXNLY8PNN4jf6nt8QZY
+Print_Tuning:
+  Fan_Speed: "Fan Speed"
+  Print_Speed: "Print Speed"
+  Flow_Rate: "Flow Rate"
+  Printing_Speed: "Printing Speed"
+
+# https://drive.google.com/open?id=1ITFkJSPXlkAuTIzF2lx5shUg3bh7UTvtOPoqMAL0lKY
+EEPROM:
+  Apply: "Apply"
+  Home_Offset: "Home Offset"
+  Probe_Offset: "Probe Offset"
+  Filament_Settings: "Filament Settings"
+  Feed_Rates: "Feed Rates"
+  PID_Settings: "Extruder PID Settings"
+  Bed_PID: "Bed PID Settings"
+  Steps_Unit: "Steps Per Unit"
+  Accelerations: "Accelerations"
+  Max_Accelerations: "Max Accelerations"
+  Advanced: "Advanced Variables"
+  Linear_Advanced: "Linear Advanced"
+  Reset: "Reset EEPROM"
+  Error_Title: "Value Changed"
+  Error_Body: "Value has been applied to the EEPROM"
+  Reset_Confirmation: #NOT_TRANSLATED
+    Title: "Reset EEPROM" #NOT_TRANSLATED
+    Body_Text: "Are you sure you want to reset all EEPROM values?" #NOT_TRANSLATED
+    positive: "Yes" #NOT_TRANSLATED
+    negative: "No" #NOT_TRANSLATED
+  Acknowledge_Reset: #NOT_TRANSLATED
+    Title: "Reset EEPROM" #NOT_TRANSLATED
+    Body_Text: "EEPROM default values have been restored." #NOT_TRANSLATED
+    Button: "OK" #NOT_TRANSLATED
+
+# https://drive.google.com/open?id=1OadGDWWEgn3LI-ACGgr8l-uXONnXA4z9TA8UlKme0JQ
+Slicing_Wizard:
+  Wizard_Description: "Use this wizard to prepare STL files for printing.\nSlicing time will vary depending on the file size.\nNote this is not available while printing."
+  Continue: "Start"
+  Layer_Height: "Layer\nHeight"
+  Infill: "Infill %"
+  Material: "Material"
+  Raft: "Raft"
+  Supports: "Supports"
+
+# https://drive.google.com/open?id=1bAXEAEQoVEFHL2dvBLB0XiQA6E9x9lHr3dHif4G90kA
+FT_ZOffset_Wizard:
+  Side_View: "Side View"
+  Front_View: "Front View"
+  Bed_High: "Bed is\ntoo low"
+  Bed_Ideal: "Bed is\nideal"
+  Bed_Low: "Bed is\ntoo high"
+  Test_Instructions: "Use the buttons below to adjust and test the current offset."
+  Bed_Down: "Bed Down"
+  Bed_Up: "Bed Up"
+  Test_Offset: "Test\nOffset"
+  Temp_Wait_Title: "Preparing Printer"
+
+  Welcome:
+    Title: "Fine Tune Z-Offset"
+    Body: "Use this wizard to fine tune the Z-Offset."
+    Button_Text: "Start"
+
+  Options:
+    Title: "Options"
+    Change_Corner: "Switch to other corner"
+    Change_Circles: "Switch to circles"
+    Change_Lines: "Switch to lines"
+    Change_Extruder: "Change to other extruder"
+    Clear_Bed: "Clear the bed"
+    Recalibrate: "Recalibrate Bed"
+    Save_Z_Offset: "Save Z-Offset"
+    Save_and_Exit: "Save and exit"
+
+  Change_Pattern:
+    Title: "Changed Test Pattern"
+    Body_Text: "The wizard will now print in concentric circles."
+
+  Save_Offset:
+    Title: "NOT DEFINED"
+    Waiting: "Waiting..."
+    Saving: "Saving Z-Offset"
+    Saved: "Z-Offset Saved"
+
+  Set_Mode:
+    Title: "Fine Tune Mode"
+    Sub_Title: "Choose a Starting Corner"
+    Body: "\nStart from either the left or right corner."
+    Option1: "Left"
+    Option2: "Right"
+
+  Z_Error:
+    Title: "Z-Offset Not Set"
+    Body: "The Z-Offset is set to "
+    Body1: " Please set\nthe Z-Offset before using this tool."
+
+#Ignore what is inside the brackets [].
+  Prepare_Lines:
+    Title: "Preparing Printer"
+    Sub_Title: "Preparing Printer"
+    Body: "Please wait while the printer prepares for the next step.\n[color=FF0000]Caution: The extruder is hot! Do not touch.[/color]"
+
+  Warn_Restart:
+    Title: "Remove Plastic"
+    Body: "Please remove all plastic from the bed before proceeding.\nMake sure the bed cable stays tucked away.\n[color=FF0000]Caution: The extruder and bed are hot! Do not touch.[/color]"
+    Repositioning: "Repositioning. Please wait."
+
+
+  Instruction:
+    Title: "Instructions"
+    Body: "To test the current Z-Offset, print a line on the bed.\nThen adjust the bed height until you find the ideal value.\nLook to the next screen for a visual reference."
+
+
+  Update_HO:
+    Title: "Adjust Offset"
+
+  Choose_Finish:
+    Title: "Save New Z-Offset"
+    Sub_Title: "Finished?"
+    Body: "Press Choose Corner to continue testing,\nor Save to finish the wizard."
+    Option1: "Choose Corner"
+    Option2: "Save"
+
+  Finish:
+    Title: "Z-Offset Saved"
+    Sub_Title: "Wizard Complete"
+    Body: "Z-Offset value is now "
+
+
+  Update_Offset:
+    mm_001: "0.01mm"
+    mm_005: "0.05mm"
+    Body: "Use the buttons below to adjust and test the current offset."
+
+#Do not translate "hex"
+# https://drive.google.com/open?id=1U7WGJJ5kmrQyPGfiwCcSwOyQts6LGqwcQ0ROSgdKLVg
+Firmware_Wizard:
+  Title: "Firmware Wizard"
+  Select_Firmware: "Select Firmware"
+  Hex_Error_Title: "No Hex File"
+  Hex_Error_Body: "Please supply a valid\nhex file on a USB drive."
+  Confirm_Hex: "Confirm Hex File"
+  Start_Firmware: "Press Start to update the firmware.\nThis action will restore all default settings.\nNote this is not available while printing."
+  Start: "Start"
+
+Bed_Cal_Wizard:
+  Welcome:
+    Title: "Bed Calibration Wizard"
+    Body: "Use this wizard to level the print bed by manually\nadjusting the screws under the four corners of the bed."
+    Button: "Start"
+
+#Ignore what is inside the brackets [].
+  Tilt_Instructions:
+    Title: "Tilt Check"
+    Body: "Make sure that the bed is seated correctly.\n [color=#69B3E7]Push down on each corner.[/color] If a corner tilts,\nadjust the screw below it until the tilting stops."
+    Button: "Next"
+
+  Mode:
+    Title: "Mode Selection"
+    Sub_Title: "Choose Mode"
+    Body: "Choose Guided for a complete step-by-step experience.\nChoose Manual for a quicker, more advanced option."
+    Button1: "Manual"
+    Button2: "Guided"
+
+  Prepare:
+    Title1: "Manual"
+    Title2: "Guided"
+    Sub_Title: "Preparing Printer"
+    Body: "Please wait while the printer prepares for the next step."
+
+  Guided_Instructions:
+    Title: "Fine Adjustment"
+    Error: "Error"
+    L_Point: "Front Left Corner"
+    LF_Screw: "front left screw"
+    R_Point: "Front Right Corner"
+    RF_Screw: "front right screw"
+    BR_Point: "Back Right Corner"
+    BR_Screw: "back right screw"
+    BL_Point: "Back Left Corner"
+    BL_Screw: "back left screw"
+    Body1: "Adjust the "
+    Body2: " \nusing the Z-Offset Tool."
+    Button_Text: "Next"
+    Button_Text2: "Next ("
+    Button_Text3: "/8)"
+
+  Manual_Instructions:
+    Title: "Fine Adjustment"
+    Sub_Title: "Select a corner and adjust the corresponding screw."
+    Left: "Front Left"
+    Right: "Front Right"
+    Back_Right: "Back Right"
+    Back_Left: "Back Left"
+
+  Finish_Wizard:
+    Title: "Bed Calibration Complete"
+    Sub_Title: "Wizard Complete"
+    Body: "You are now ready to print!"
+
+#Here do not translate \robo.profile\
+# https://drive.google.com/open?id=1OadGDWWEgn3LI-ACGgr8l-uXONnXA4z9TA8UlKme0JQ
+Slicer_Wizard:
+  Confirmation:
+    Title: "Slicing Wizard"
+    Button: "Done"
+  Select_File:
+    Title: "Select STL File"
+  Overrides:
+    Title: "Choose Slicing Options"
+  Progress:
+    Sub_Title: "Slicing "
+  Error:
+    Profile:
+      Sub_Title: "Profile Error"
+      Body: "The profile \"robo.profile\" does not exist\nand cannot be automatically restored."
+    Slice:
+      Sub_Title: "Slicing Failed"
+      Body: "The file failed to slice correctly.\nPlease try again."
+
+  Support: #NOT_TRANSLATED
+    Title: "Supports" #NOT_TRANSLATED
+    Body: "Supports are suggested for prints with steep overhangs.\nThey can be printed from the bed only or all over the print." #NOT_TRANSLATED
+    Buildplate: "Print Bed" #NOT_TRANSLATED
+    Everywhere: "All Over" #NOT_TRANSLATED
+    No_Supports: "None" #NOT_TRANSLATED
+  Fans: #NOT_TRANSLATED
+    Title: "Print Cooling" #NOT_TRANSLATED
+    Body: "PLA: Select fans on.\nABS: Select fans off." #NOT_TRANSLATED
+    fan_on: "On" #NOT_TRANSLATED
+    fan_off: "Off" #NOT_TRANSLATED
+
+  Raft_Support:
+    Title: "Bed Adhesion" #NOT_TRANSLATED
+    Body: "Add a raft underneath your print or a single layer brim\naround it to improve adhesion to the print bed." #NOT_TRANSLATED
+    no_raft: "None" #NOT_TRANSLATED
+    raft: "Raft" #NOT_TRANSLATED
+    brim: "Brim" #NOT_TRANSLATED
+
+  Print_Quality:
+    Title: "Print Quality"
+    Body: "Smaller layer thickness produces higher print quality,\nbut also increases print time."
+    mm_20: "0.20 mm"
+    mm_15: "0.15 mm"
+    mm_10: "0.10 mm"
+    mm_06: "0.06 mm"
+
+  Infill:
+    Title: "Infill Density"
+    Body: "Infill determines the internal density of the print. \nHigher density prints are sturdier, but use more filament."
+    p_0: "0%"
+    p_10: "10%"
+    p_25: "25%"
+    p_100: "100%"
+
+Refresh_Screen:
+  Soft_Reset:
+    Status: "Connection Offline"
+    Title: "Connection Interrupted"
+    Please: "Please "
+    Body: " the connection to the printer controls. If\nerror persists, please call customer service and report:\n"
+
+  Reset:
+    Title: " In Progress"
+    Body: "Disconnecting. The screen may freeze momentarily."
+
+  Update_Connection:
+    Successful: " Successful"
+    In_Progress: " In Progress"
+    bed_connect: "Checking For Bed Connection"
+    offline: "Offline"
+
+# # https://drive.google.com/open?id=1NBYrF4mbHXkyxkuTnYFRIEY64eo249s4pGMOtMxbNmU
+Firmware:
+  Title: "Firmware Is Updating"
+  Body: "Please wait. Most functions are disabled until the\nupdate is complete."
+
+# # https://drive.google.com/open?id=1NY4iQfCJHCgD1-epKEv9iCR6sKY_XRxXdjXjnZ10aZw
+Bed_Hot:
+  Title: "Print Bed Is Hot"
+  Body: "Please do not remove the print bed while it is in use.\nDoing so can cause permanent damage to the bed."
+
+# # https://drive.google.com/open?id=13kowfaZp4buygNewhMEuHXeXxFs93PbfXvK1Xl3509g
+Filament:
+  Title: "Filament Has Run Out"
+  Body: "\nPlease reload more filament once the printer has paused.\nThen resume the print."
+  Button1: "OK"
+  Button2: "Filament Wizard"
+
+Error_Detection:
+  # https://drive.google.com/open?id=10LtQ_Wh4iQkXg6K3BUS1vk88fJF8dymslyoj-csJQ6c
+  MAINBOARD:
+    Title: "Connection Error"
+    Body: "Please reset connection"
+    Connection_Offline: "Connection Offline"
+    E_Sub_Title: "Connection Interrupted"
+    E_Body: "Please reset the connection to the printer controls. If\nerror persists, please call customer service and report:"
+    E_Button: "Reset"
+    E_Title: "Error Detected"
+    Reset_Confirmation: #NOT_TRANSLATED
+      Title: "Reset Controls" #NOT_TRANSLATED
+      Body: "Are you sure you want to reset the connection to the\nprinter controls? This will interrupt any printer activity\nsuch as printing and heating." #NOT_TRANSLATED
+      positive: "Yes" #NOT_TRANSLATED
+      negative: "No" #NOT_TRANSLATED
+  # https://drive.google.com/open?id=1NBYrF4mbHXkyxkuTnYFRIEY64eo249s4pGMOtMxbNmU
+  FIRMWARE:
+    Title: "Firmware is updating"
+    Body: "Please wait"
+    E_Title: "Firmware Update"
+  # https://drive.google.com/open?id=1NY4iQfCJHCgD1-epKEv9iCR6sKY_XRxXdjXjnZ10aZw
+  BED_HOT:
+    Title: "Print bed is hot"
+    Body: "Do not remove bed"
+  # https://drive.google.com/open?id=1fVRiDXVQ7OQTN-z4p0ACB1E_sbk56jeCJ7Wj675t04o
+  BED_DISCONNECT:
+    Title: "Print bed is disconnected"
+    Body: "Please reconnect the bed"
+    E_Sub_Title: "Print Bed Is Disconnected"
+    E_Body: "Please put the print bed back in place, then reconnect."
+    E_Button: "Reconnect"
+    E_Title: "Print Bed Status"
+  # https://drive.google.com/open?id=1KuIl2yQle6Bs3Z3onAhJE9r_k8d3G7UC1VkIg6OORJs
+  PAUSED:
+    Title: "Print paused"
+    Body: "Please resume when ready"
+  # https://drive.google.com/open?id=13kowfaZp4buygNewhMEuHXeXxFs93PbfXvK1Xl3509g
+  FIL_RUNOUT:
+    Title: "Filament has run out"
+    Body: "Please reload more filament"
+    E_Title: "Filament Status"
+  UPDATE_AVAILABLE:
+    Title: "Update is available"
+    Body: " available"
+    Second_Title: "Install Updates"
+    E_Title: "Update Available"
+    E_Body: "Would you like to install the update?\nChangelog: [color=#69B3E7]Robo3D.com/changelogs"
+    E_Update: "Update"
+    E_Cancel: "Cancel"
+  DEFAULT:
+    Title_Idle: "Robo ready"
+    Title_Active: "Robo active"
+    Body_Idle: "Let's print something!"
+    Body_Active: "Print in progress."
+
+File_Options:
+  Delete: "Delete"
+  Add_Folder: "Add Folder"
+  Move_File: "Move File"
+  Move_Folder: "Move Folder"
+  Continue: "Continue"
+  Show_Keyboard: "Show Keyboard"
+  New_Folder: "New_Folder"
+
+
+Files:
+  Local: "Local"
+  File_Options:
+    Title: "List Options"
+    Move: "Move File"
+    MoveF: "Move Folder"
+    Delete: "Delete"
+    AddF: "Add Folder"
+    Sort_Files: "Sort items"
+    Select_Items: "Select items to edit"
+    Create_Folder: "Create new folder"
+    Refresh: "Refresh"
+    Exit_File_Options:
+      Title: "Confirm Exit"
+      Body: "Are you sure you want to exit the File Explorer?"
+      Option1: "Exit"
+      Option2: "Cancel"
+    Copy_Error:
+      Title: "Copy Failed"
+      Body: "This can happen if the USB Drive\nwas removed or a file is corrupt."
+    Move_Error:
+      Title: "Move Failed"
+      Body: "This can happen if the USB Drive\nwas removed or a file is corrupt."
+    Delete_Error:
+      Title: "Delete Failed"
+      Body: "This can happen if the USB Drive\nwas removed or a file is corrupt."
+    Folder_Error:
+      Title: "Create Folder Failed"
+      Body: "This can happen if the USB Drive\nwas removed or a file is corrupt."
+  File_Tab:
+    USB_Files: "USB Storage"
+    Unmounted_USB: "USB is unmounted or\nnot supported" 
+    Local_Files: "[color=#69B3E7]Local Storage[/color]"
+    Loading: "Loading...\n"
+  File_Progress:
+    Waiting: "Waiting..."
+    Replace: "Replace"
+    Keep: "Keep Both"
+    Skip: "Skip"
+    In_Progress: "In Progress"
+  Sort_Files:
+    Title: "Sort Items"
+    Alphabet: "Alphabetically"
+    Alphabet_Options:
+      A2Z: "A - Z"
+      Z2A: "Z - A"
+    Size: "By size"
+    Size_Options:
+      L2S: "Large to small"
+      S2L: "Small to large"
+    Date: "By date"
+    Date_Options:
+      New: "Newest first"
+      Old: "Oldest first"
+    Type: "By type"
+    Type_Options:
+      STL: ".stl first"
+      GCODE: ".gcode first"
+      HEX: ".hex first"
+      Folder: "Folders first"
+  Modify_Files:
+    Title: "Edit Items"
+    Copy: "Copy items"
+    Move: "Move items"
+    Delete: "Delete items"
+    Files_Selected: "Items selected: "
+    Progress: "Progress: "
+    Files: " Items"
+    File_Exists: "Item already exists at location. Please choose an option."
+    copy_underscore: "copy_"
+  Errors:
+    No_Items1:
+      Title: "No items are selected"
+      Body: "\nPlease select at least one item to continue."
+    No_Items2:
+      Title: "No option selected"
+      Body: "\nPlease select an option to continue."
+  Delete_File_Conf: #NOT_TRANSLATED
+    Title: "Confirm deletion" #NOT_TRANSLATED
+    Body: "Are you sure you want to delete these items?" #NOT_TRANSLATED
+    positive: "Delete" #NOT_TRANSLATED
+    negative: "Cancel" #NOT_TRANSLATED
+  Delete_Folder_Conf: #NOT_TRANSLATED
+    Title: "Delete Folder" #NOT_TRANSLATED
+    Body: "Are you sure you want to delete this folder\nand all its contents?" #NOT_TRANSLATED
+
+  Error:
+    Title: "Item Cannot Be Deleted"
+    Body: "Please try again.\n If this persists,\ncheck your filesystem for errors."
+
+  Move_Error:
+    Title: "Item Cannot Be Moved"
+    Body: "If this persists, the item you attemped\nto move may already exist at that location."
+
+  Warning:
+    Title: "Saving"
+    Body: "Please wait."
+
+  Keyboard:
+    Title: "Folder Name"
+    New_Folder: "New_Folder"
+    Default_Title: "Keyboard"
+    Error:
+      Title: "Folder Exists"
+      Body: "The folder already exists, Do you want to rename it?"
+      Rename: "Rename"
+      Cancel: "Cancel"
+
+  Save_File:
+    Title: "Save File"
+    Sub_Title: "File Saved"
+    Body: " has been saved."
+
+  File_Status:
+    Title: ""
+    Busy: "Printer Busy"
+    Start: "Start"
+
+  File_Error:
+    Title: "File Error"
+    Body: "There was an error with the selected file.\nPlease try again."
+
+  File_Saved:
+    Title: "File Saved"
+    Body: "File has been saved to\nthe local directory."
+
+
+Update_Printer:
+  Checking: "Checking..."
+  Connection_Error: "Connection Error!"
+  Connect_Error:
+    Title: "Connection Error"
+    Body: "Check internet connection."
+  Server_Error:
+    Title: "Update Server is off"
+    Body: "If rebooting the machine and trying again\ndoes not work then contact customer support."
+  Loading:
+    Title: "Loading Update"
+    Body: "This may take several minutes."
+  Update_Warning:
+    Title: "Install Update"
+    Body: "Are you sure you want to install this update? This will interupt any printer activity that is in progress."
+    Option1: "Yes"
+    Option2: "No"
+  No_Update:
+    Title: "Update Notification"
+    Body: "No update needed."
+  Welcome:
+    Installed: "Installed:"
+    Available: "Available:"
+    RoboOS: "RoboOS"
+    Update: "Update"
+    Up2Date: "Up-to-date"
+
+Button_Screen:
+  Default_Button: "OK"
+
+Tool_Status:
+  Tool1: "Extruder 1"
+  Tool2: "Extruder 2"
+  Tool: "Extruder"
+  Bed: "Bed"
+
+Switch_Lang:
+  Welcome:
+    Title: "Select Language"
+  Confirmation:
+    Title: "Selected "
+    Body1: "Changed language to "
+    Body2: ".\nThe printer will restart itself."
+    Button: "OK"
+  Choose:
+    Select: "Select "
+    Switch_to: "Switch to "
+    Are_You_Sure: "Are you sure you want to select this language?"
+    Yes_option: "Yes"
+    No_option: "No"
+    Question: ""
+
+Webcam:
+  Sub_Title: "Checking Status"
+  Body: "Use the button below to toggle the\nstate of the camera."
+  Button: "Checking State"
+  Webcam_On: "Camera Is On"
+  Webcam_Off: "Camera Is Off"
+  Button_On: "On"
+  Button_Off: "Off"
+
+PID_Tool:
+  Welcome_Screen:
+    Title: "PID Tuner"
+    Body: "Use this wizard to recalibrate the heaters on your printer. This will take several minutes to complete. Once you begin tuning, you cannot exit until the process is complete."
+    Button_Text: "Start"
+  Workflow:
+    Title: "Autotune in Progress"
+    Sub_Title: "Autotuning "
+    Bed: "Bed"
+    Extruder1: "Extruder 1"
+    Extruder2: "Extruder 2"
+    Extruder: "Extruder"
+    Waiting: "Waiting for the temperature to stabilize."
+    Stage1: "Stage "
+    Stage2: " of "
+    Stage3: "10" #Changing this will actually change how many cycles the PID tuner does.
+    Target_Bed: "80"
+    Target_Ext: "240"
+    Celsius: "°C"
+    Actual: "[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]Actual: [/color][/font][/b]"
+    Target: "\n[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]Target: [/color][/font][/b]"
+    P: "[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]P: [/color][/font][/b]"
+    I: "[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]I: [/color][/font][/b]"
+    D: "[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]D: [/color][/font][/b]"
+    Original_PID: "[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]Original PID[/color][/font][/b]"
+    Updated_PID: "[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]Updated PID[/color][/font][/b]"
+  Failure_Screen:
+    Title: "Autotune Failure!"
+    Body: "Autotuning has timed out and failed.\n\nIt's possible that the heater was not able to reach the target temperature in time."
+  Finish_Wizard:
+    Title: "Save new PID?"
+    Body: "Would you like to save the new PID settings?"
+    New_PID: "[color=#69B3E7][size=30][font=fonts/S-Core - CoreSansD55Bold.otf][b]New PID[/color][/font][/b]"
+    Save: "Save"
+    Cancel: "Cancel"
+  Save_Screen:
+    Title: "New PID Saved"
+    Body: "[color=#69B3E7][size=40]Wizard Complete[/color][/size][size=30]\nThe new PID values have been saved."
+  Prevent_Back_Screen:
+    Title: "Autotune in Progress"
+    Body: "Autotune cannot be interrupted,\nplease wait for the process to complete."
+
+Heater_Select:
+  Title: "Select Heater"
+  Body: "Select which heater to calibrate."
+  Bed: "Bed"
+
+Extruder_Select:
+  Title: "Select Extruder"
+  Body: "Select one or both extruders."
+  Both: "Both"

@@ -1,0 +1,81 @@
+<MainScreen>:
+	GridLayout:
+		rows: 3
+		BoxLayout:
+			orientation: 'horizontal'
+			size_hint_y: None
+			height: root.height/4
+			width: root.width
+			Button:
+				text: "Files"
+				on_release: root.manager.current = 'back'
+			Button:
+				text: "Printer"
+			Button:
+				text: "Settings"
+				on_release: root.manager.current = 'noheader'
+		BoxLayout:
+			orientation: 'vertical'
+			Label: 
+				text: '<Filename>'
+			Button: 
+				text: 'Ready to print'
+
+		BoxLayout:
+			orientation: 'horizontal'
+			GridLayout:
+				padding: 20
+				rows: 2
+				GridLayout:
+					cols: 2
+					Label:
+						text: '<Img>'
+					BoxLayout:
+						orientation: 'vertical'
+						Label:
+							text: 'EXTRUDER 1'
+						Label:
+							text: '220'
+				ProgressBar:
+					value: 50
+			GridLayout:
+				padding: 20
+				rows: 2
+				GridLayout:
+					cols: 2
+					Label:
+						text: '<Img>'
+					BoxLayout:
+						orientation: 'vertical'
+						Label:
+							text: 'EXTRUDER 2'
+						Label:
+							text: '103'
+				ProgressBar:
+					value: 20
+			GridLayout:
+				padding: 20
+				rows: 2
+				GridLayout:
+					cols: 2
+					Label:
+						text: '<Img>'
+					BoxLayout:
+						orientation: 'vertical'
+						Label:
+							text: 'BED TEMP'
+						Label:
+							text: '149'
+				ProgressBar:
+					value: 70
+<BackButtonScreen>:
+	BoxLayout:
+		Button:
+			text: 'Click me for Main Screen'
+			on_release: root.manager.current = 'main'
+
+<NoHeaderScreen>:
+	BoxLayout:
+		Button:
+			text: 'Click me for Main Screen'
+			on_release: root.manager.current = 'main'
