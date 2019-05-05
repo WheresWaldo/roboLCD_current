@@ -1,51 +1,5 @@
 # coding=utf-8
 
-
-from setuptools import setup
-from setuptools.command.install import install
-from setuptools.command.develop import develop
-import sys
-
-class Install_Deps(object):
-
-    def install_deps(self):
-        import subprocess
-        import os
-        import pip
-        local_path = os.path.dirname(os.path.realpath(__file__))
-        r = pip.main(['install', '--upgrade', '--no-deps', '--force-reinstall',
-                      'https://github.com/Robo3D/OctoPrint-FirmwareUpdater/archive/0.2.1.zip',
-                      "https://github.com/Robo3D/Meta-Reader/archive/1.1.0.zip",
-                      "https://github.com/Robo3D/roboOctoprint/archive/1.4.0-rc6.zip",
-                     ])
-        if r is not 0:
-            print("Could not install RoboLCD dependencies: Meta_Reader and/or OctoPrint_FirmwareUpdater")
-            sys.exit(-1)
-        else:
-            pass
-        #make USB stuff happen
-
-        sh_path = local_path + '/USB_deps.sh'
-
-        print("\n\n" + sh_path + "\n\n")
-        subprocess.call(['sudo bash ' + sh_path], shell=True)
-
-
-
-
-class Install_Deps(install, Install_Deps):
-    def run(self):
-        self.install_deps()
-        install.run(self)
-
-class Install_Deps_Dev(develop, Install_Deps):
-    def run(self):
-        self.install_deps()
-        develop.run(self)
-
-########################################################################################################################
-### Do not forget to adjust the following variables to your own plugin.
-
 # The plugin's identifier, has to be unique
 plugin_identifier = "RoboLCD"
 
@@ -64,13 +18,13 @@ plugin_version = "1.11.15"
 plugin_description = """LCD screen for Printer"""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Matt Pedler & Victor E Fimbres & Peri Smith"
+plugin_author = ""
 
 # The plugin's author's mail address.
-plugin_author_email = "Developer@robo3d.com"
+plugin_author_email = ""
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/victorevector/RoboLCD"
+plugin_url = "https://github.com/WheresWaldo/roboLCD_current/tree/do_not_copy"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
@@ -101,7 +55,7 @@ plugin_ignored_packages = []
 # Example:
 #     plugin_requires = ["someDependency==dev"]
 #     additional_setup_parameters = {"dependency_links": ["https://github.com/someUser/someRepo/archive/master.zip#egg=someDependency-dev"]}
-additional_setup_parameters = {'cmdclass': {'install': Install_Deps, 'develop': Install_Deps_Dev},}
+additional_setup_parameters = {}
 
 ########################################################################################################################
 
@@ -112,7 +66,7 @@ try:
 except:
     print("Could not import OctoPrint's setuptools, are you sure you are running that under "
           "the same python installation that OctoPrint is installed under?")
-
+    import sys
     sys.exit(-1)
 
 setup_parameters = octoprint_setuptools.create_plugin_setup_parameters(
@@ -133,7 +87,6 @@ setup_parameters = octoprint_setuptools.create_plugin_setup_parameters(
 
 if len(additional_setup_parameters):
     from octoprint.util import dict_merge
-
     setup_parameters = dict_merge(setup_parameters, additional_setup_parameters)
 
 setup(**setup_parameters)

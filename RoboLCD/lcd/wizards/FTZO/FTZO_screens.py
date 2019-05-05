@@ -449,7 +449,9 @@ class FTZO_Options(Scroll_Box_Even):
 
     def re_calibrate_bed(self, bed_callback):
         def redo_cal(callback=None):
-            roboprinter.printer_instance._printer.commands('G36')
+            roboprinter.printer_instance._printer.commands('G28')
+			roboprinter.printer_instance._printer.commands('M206 Z0')
+			roboprinter.printer_instance._printer.commands('G29')
             roboprinter.printer_instance._printer.commands('M114')
             roboprinter.printer_instance._printer.commands('M118 ACTION COMPLETE!')
             self.set_mode(self.mode['corner']) #reset the current mode

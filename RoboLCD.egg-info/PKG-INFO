@@ -3,8 +3,8 @@ Name: RoboLCD
 Version: 2.0.1
 Summary: LCD screen for Printer
 Home-page: https://github.com/WheresWaldo/roboLCD_current
-Author: Victor E Fimbres & Matt Pedler & Peri Smith
-Author-email: Developer@robo3d.com
+Author: 
+Author-email: 
 License: AGPLv3
-Description: UNKNOWN
+Description: LCD controller for Robo CommunityOS
 Platform: UNKNOWN

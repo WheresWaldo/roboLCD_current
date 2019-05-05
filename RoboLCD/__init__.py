@@ -235,7 +235,7 @@ class RobolcdPlugin(octoprint.plugin.SettingsPlugin,
             # connect to regular serial port
             comm_instance._log("Connecting to: %s" % port)
             if baudrate == 0:
-                serial_obj = serial.Serial(str(port), 115200, timeout=connection_timeout, writeTimeout=10000, parity=serial.PARITY_ODD)
+                serial_obj = serial.Serial(str(port), 250000, timeout=connection_timeout, writeTimeout=10000, parity=serial.PARITY_ODD)
             else:
                 serial_obj = serial.Serial(str(port), baudrate, timeout=connection_timeout, writeTimeout=10000, parity=serial.PARITY_ODD)
             serial_obj.close()
@@ -272,7 +272,6 @@ def __plugin_load__():
 
     global __plugin_hooks__
     __plugin_hooks__ = {
-        "octoprint.plugin.softwareupdate.check_config": __plugin_implementation__.get_update_information,
         "octoprint.comm.transport.serial.factory": __plugin_implementation__.serial_hook,
         "octoprint.filemanager.extension_tree": __plugin_implementation__.support_hex_files
     }
