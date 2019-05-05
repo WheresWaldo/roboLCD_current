@@ -1,4 +1,10 @@
 # RoboLCD Changelog
+# Change Log 2.0.1
+
+### Minor Changes
+ - removed OctoPrint old version requirement and forced reinstall
+
+# RoboLCD Changelog
 # Change Log 1.11.0
 
 ### Major Changes
