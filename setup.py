@@ -59,7 +59,7 @@ additional_setup_parameters = {}
 
 ########################################################################################################################
 
-
+from setuptools import setup
 
 try:
     import octoprint_setuptools
