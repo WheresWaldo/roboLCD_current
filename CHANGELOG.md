@@ -4,8 +4,7 @@
 ### Minor Changes
  - removed OctoPrint old version requirement and forced reinstall
 
-# RoboLCD Changelog
-# Change Log 1.11.0
+## Change Log 1.11.0
 
 ### Major Changes
  - Filament Change/Load, Z-Offset, and Fine Tune Z-Offset wizards changed to support dual extrusion
