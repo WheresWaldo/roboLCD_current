@@ -1,3 +1,13 @@
+Location: https://github.com/WheresWaldo/roboLCD_current/archive/do_not_copy.zip
+
+# Change Log 2.0.1
+
+### Major Changes
+ - Removed all OctoPrint requirements
+ - Removed forced installs of old versions
+ - Removed G35 and G36 references, replaced with standard Marlin commands
+ - Revised most references back to Robo3D GITHUB locations
+
 # Change Log 1.11.0
 
 ### Major Changes
