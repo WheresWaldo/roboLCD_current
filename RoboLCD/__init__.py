@@ -4,6 +4,7 @@
 # @Last Modified by:   Matt Pedler
 # @Last Modified time: 2018-02-22 10:48:39
 # coding=utf-8
+
 from __future__ import absolute_import
 import octoprint.plugin
 
@@ -79,8 +80,6 @@ class RobolcdPlugin(octoprint.plugin.SettingsPlugin,
         passing = lang.pack['Load_Success']['pass']
         self._logger.info("Loading Success? " + str(passing) + " ######################################")
         roboprinter.lang = lang
-
-        
 
         self._logger.info("RoboLCD Starting up")
         # saves the printer instance so that it can be accessed by other modules
@@ -187,7 +186,6 @@ class RobolcdPlugin(octoprint.plugin.SettingsPlugin,
                 session_saver.saved['file_callback']()
         #throw events to anyone who wants to listen
         session_saver.update_event(event, payload)
-
 
 
     def updater_placeholder(self, **kwargs):

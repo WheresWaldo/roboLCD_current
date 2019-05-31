@@ -263,7 +263,7 @@ def start():
                 extruder_count = 1
     
             #re-enable this code when Dual extrusion is ready for release
-            extruder_count = 1
+            #extruder_count = 1
     
             model = self.settings.get(['Model'])
     
